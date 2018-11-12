@@ -7,10 +7,10 @@ performance issues in mobile apps.
 In this paper, we conduct an empirical study on performance issues in iOS apps written in Swift language. To the best of our knowledge, this is the first study on performance issues of apps on the iOS platform. We manually studied 235 performance issues that are collected from four open source iOS apps. We found that most performance issues in iOS apps are related to inefficient UI design, memory issues, and inefficient thread handling. We also manually uncovered four performance anti-patterns that recurred in the studied issue reports. To help developers avoid these performance anti-patterns in the code, we implemented a static analysis tool called iPerfDetector.We evaluated iPerfDetector on eight open source and three commercial apps. iPerfDetector successfully detected 34 performance anti-pattern instances in the studied apps, where 31 of them are already confirmed and accepted by developers as potential performance issues. Our case study on the performance impact of the anti-patterns shows that fixing the anti-pattern may improve the performance
 
 
-# Tools
+## Tools
 SwiftAST [GitHub](https://github.com/yanagiba/swift-ast)
 
-### Standalone Tool
+## Standalone Tool
 
 To use it as a standalone tool, clone this repository to your local machine by
 
