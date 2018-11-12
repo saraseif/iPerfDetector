@@ -1,6 +1,6 @@
 # Replication Package for iPerfDetector: Characterizing and Detecting Performance Anti-patterns in iOS Applications
 
-Sara Seif Afjehei  Tse-Hsun (Peter) Chen  Nikolaos Tsantalis
+Sara Seif Afjehei, Tse-Hsun (Peter) Chen, Nikolaos Tsantalis
 
 Abstract: Performance issues in mobile applications (i.e., apps) often have a direct impact on the user experience. However, due to limited testing resources and fast-paced software development cycles, many performance issues remain undiscovered when the apps are released. As found by a prior study, these performance issues are one of the most common complaints that app users have. Unfortunately, there is limited support to help developers avoid or detect
 performance issues in mobile apps.
