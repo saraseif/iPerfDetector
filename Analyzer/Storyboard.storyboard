@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="cpb-Mc-R03">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="e1D-F4-1cC">
+            <objects>
+                <windowController showSeguePresentationStyle="single" id="cpb-Mc-R03" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="1LB-we-hr0">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="163" y="199" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+                        <connections>
+                            <outlet property="delegate" destination="cpb-Mc-R03" id="Tgj-kb-P5x"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="I1c-eH-sQA" kind="relationship" relationship="window.shadowedContentViewController" id="pCP-43-CrF"/>
+                    </connections>
+                </windowController>
+                <customObject id="usF-cx-3pQ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="49"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="Z10-Ft-4EQ">
+            <objects>
+                <viewController id="I1c-eH-sQA" customClass="MainViewController" customModule="CDSwiftASTAnalyzer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="BIF-Gz-9po">
+                        <rect key="frame" x="0.0" y="0.0" width="463" height="381"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iUF-cS-fIB">
+                                <rect key="frame" x="7" y="299" width="378" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="IlW-Dw-0sT"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="NR4-mA-Uqf">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4VX-3E-vPk">
+                                <rect key="frame" x="197" y="253" width="145" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="RaP-wZ-UNJ"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Detect MMT" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rH7-gi-Po5">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="detectMMT:" target="I1c-eH-sQA" id="giV-0b-ksc"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MCI-Mu-Vwt">
+                                <rect key="frame" x="197" y="218" width="145" height="32"/>
+                                <buttonCell key="cell" type="push" title="Detect DBT" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MHi-06-GZT">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="detectDBT:" target="I1c-eH-sQA" id="ZA7-It-jAC"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FAe-rq-TCz">
+                                <rect key="frame" x="44" y="253" width="145" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="CJD-tQ-hIF"/>
+                                    <constraint firstAttribute="width" constant="133" id="E5e-aY-xUV"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Detect BlurEffect" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xFW-87-ocD">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="detectBlurEffect:" target="I1c-eH-sQA" id="OFh-T4-x47"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BCr-Ny-Xep">
+                                <rect key="frame" x="44" y="218" width="145" height="32"/>
+                                <buttonCell key="cell" type="push" title="Detect Opacity" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CgW-9R-2sB">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="detectOpacity:" target="I1c-eH-sQA" id="NPr-DJ-dt9"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vuI-N2-hQp">
+                                <rect key="frame" x="393" y="316" width="56" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="W2a-Wo-gUu"/>
+                                </constraints>
+                                <buttonCell key="cell" type="roundRect" title="Browse" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Rqj-8S-P79">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="cellTitle"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="browse:" target="I1c-eH-sQA" id="4MH-3O-AVq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="4VX-3E-vPk" firstAttribute="leading" secondItem="FAe-rq-TCz" secondAttribute="trailing" constant="20" id="2NR-FU-671"/>
+                            <constraint firstItem="iUF-cS-fIB" firstAttribute="leading" secondItem="BIF-Gz-9po" secondAttribute="leading" constant="7" id="318-HE-acM"/>
+                            <constraint firstItem="BCr-Ny-Xep" firstAttribute="height" secondItem="FAe-rq-TCz" secondAttribute="height" id="4Iy-ZQ-gjW"/>
+                            <constraint firstItem="BCr-Ny-Xep" firstAttribute="top" secondItem="FAe-rq-TCz" secondAttribute="bottom" constant="14" id="G4o-DX-aOx"/>
+                            <constraint firstAttribute="trailing" secondItem="vuI-N2-hQp" secondAttribute="trailing" constant="14" id="IF0-cG-zJM"/>
+                            <constraint firstItem="MCI-Mu-Vwt" firstAttribute="width" secondItem="4VX-3E-vPk" secondAttribute="width" id="JEN-uK-b3Z"/>
+                            <constraint firstItem="BCr-Ny-Xep" firstAttribute="width" secondItem="FAe-rq-TCz" secondAttribute="width" id="Oz2-Ml-8CP"/>
+                            <constraint firstItem="FAe-rq-TCz" firstAttribute="top" secondItem="iUF-cS-fIB" secondAttribute="bottom" constant="18" id="Pgc-7q-IBl"/>
+                            <constraint firstItem="vuI-N2-hQp" firstAttribute="leading" secondItem="iUF-cS-fIB" secondAttribute="trailing" constant="8" id="YoG-zy-wPz"/>
+                            <constraint firstItem="4VX-3E-vPk" firstAttribute="top" secondItem="FAe-rq-TCz" secondAttribute="top" id="aBg-Fp-Mio"/>
+                            <constraint firstItem="FAe-rq-TCz" firstAttribute="leading" secondItem="iUF-cS-fIB" secondAttribute="leading" constant="43" id="ayx-BH-IKw"/>
+                            <constraint firstItem="iUF-cS-fIB" firstAttribute="top" secondItem="BIF-Gz-9po" secondAttribute="top" constant="17" id="lRK-Gz-ZO3"/>
+                            <constraint firstItem="4VX-3E-vPk" firstAttribute="trailing" secondItem="iUF-cS-fIB" secondAttribute="trailing" constant="-49" id="o8K-XN-m1j"/>
+                            <constraint firstItem="MCI-Mu-Vwt" firstAttribute="height" secondItem="4VX-3E-vPk" secondAttribute="height" id="pbt-nk-vem"/>
+                            <constraint firstItem="MCI-Mu-Vwt" firstAttribute="top" secondItem="4VX-3E-vPk" secondAttribute="bottom" constant="14" id="ru7-vM-aY1"/>
+                            <constraint firstItem="vuI-N2-hQp" firstAttribute="centerY" secondItem="iUF-cS-fIB" secondAttribute="centerY" id="sbj-5A-yhC"/>
+                            <constraint firstItem="BCr-Ny-Xep" firstAttribute="leading" secondItem="FAe-rq-TCz" secondAttribute="leading" id="si3-sD-k37"/>
+                            <constraint firstItem="MCI-Mu-Vwt" firstAttribute="leading" secondItem="4VX-3E-vPk" secondAttribute="leading" id="wQO-rx-Wiu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detectOpacity" destination="BCr-Ny-Xep" id="mOw-FV-qZ2"/>
+                        <outlet property="filepathField" destination="iUF-cS-fIB" id="ZOO-Hl-WCo"/>
+                    </connections>
+                </viewController>
+                <customObject id="ZsY-IV-W9c" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="806.5" y="-13.5"/>
+        </scene>
+    </scenes>
+</document>
