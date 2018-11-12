@@ -9,3 +9,20 @@ In this paper, we conduct an empirical study on performance issues in iOS apps w
 
 # Tools
 SwiftAST [GitHub](https://github.com/yanagiba/swift-ast)
+
+### Standalone Tool
+
+To use it as a standalone tool, clone this repository to your local machine by
+
+```bash
+git clone https://github.com/saraseif/iPerfDetector
+```
+
+SwiftAST is the static analysis tool used in this tool. Instructions are accordingly:
+Go to the repository folder and run the following command:
+
+```bash
+swift build -c release
+```
+
+This will generate a `swift-ast` executable inside `.build/release` folder.
