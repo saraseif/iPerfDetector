@@ -26,3 +26,9 @@ swift build -c release
 ```
 
 This will generate a `swift-ast` executable inside `.build/release` folder.
+
+## Manual Study Results
+The manually annotated issue reports that we studied are publicly available at:
+https://docs.google.com/spreadsheets/d/1hX8IBcYIVv6x4nWfWczT5oLV0b1SMQK03q6_xC9B8eQ/edit#gid=1079185239
+
+
