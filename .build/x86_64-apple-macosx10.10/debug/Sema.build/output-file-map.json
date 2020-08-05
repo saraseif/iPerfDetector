@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Sema/LexicalParentAssignment.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/LexicalParentAssignment.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/LexicalParentAssignment.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/LexicalParentAssignment~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/LexicalParentAssignment.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Sema/SequenceExpressionFolding.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/SequenceExpressionFolding.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/SequenceExpressionFolding.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/SequenceExpressionFolding~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Sema.build/SequenceExpressionFolding.swiftdeps"
+  }
+}

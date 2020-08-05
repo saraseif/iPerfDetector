@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Char.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Char.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Char.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Char~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Char.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Checkpoint.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Checkpoint.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Checkpoint.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Checkpoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Checkpoint.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Comment.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Comment.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Comment.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Comment~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Comment.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Identifier.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Identifier.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Identifier.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Identifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Identifier.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+NumericLiteral.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+NumericLiteral.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+NumericLiteral.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+NumericLiteral~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+NumericLiteral.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Operator.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Operator.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Operator.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Operator~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+Operator.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+StringLiteral.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+StringLiteral.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+StringLiteral.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+StringLiteral~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer+StringLiteral.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Lexer.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Role+Lexer.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role+Lexer.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role+Lexer.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role+Lexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role+Lexer.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Role.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Role.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Scanner.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Scanner.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Scanner.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Scanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Scanner.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Token.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Token.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Token.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Token~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/Token.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenInvalidReason.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenInvalidReason.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenInvalidReason.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenInvalidReason~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenInvalidReason.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Dummy.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Dummy.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Dummy.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Dummy~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Dummy.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Equatable.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Equatable.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Equatable.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Equatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Equatable.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Modifier.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Modifier.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Modifier.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Modifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Modifier.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Naming.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Naming.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Naming.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Naming~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/TokenKind+Naming.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/UnicodeScalar+Lexer.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/UnicodeScalar+Lexer.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/UnicodeScalar+Lexer.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/UnicodeScalar+Lexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.build/UnicodeScalar+Lexer.swiftdeps"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/CDSwiftAST.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/Sources/CDSwiftAST/main.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/CDSwiftAST.build/main.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/CDSwiftAST.build/main.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/CDSwiftAST.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/CDSwiftAST.build/main.swiftdeps"
+  }
+}

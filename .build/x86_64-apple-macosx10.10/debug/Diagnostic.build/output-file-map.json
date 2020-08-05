@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/Diagnostic.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/Diagnostic.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/Diagnostic.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/Diagnostic~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/Diagnostic.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticConsumer.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticConsumer.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticConsumer.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticConsumer~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticConsumer.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticKind.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticKind.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticKind.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticKind.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticPool.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticPool.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticPool.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.build/DiagnosticPool.swiftdeps"
+  }
+}

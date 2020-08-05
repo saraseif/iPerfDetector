@@ -1,0 +1,91 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5Lexer5TokenV4KindO", ""]
+- ["5Lexer5TokenV4KindO", "isModifier"]
+- ["5Lexer5TokenV4KindO", "declarationModifiers"]
+- ["5Lexer5TokenV4KindO", "accessLevelModifiers"]
+- ["5Lexer5TokenV4KindO", "mutationModifiers"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "Token"
+depends-member:
+- ["s9EquatableP", "class"]
+- ["s9EquatableP", "convenience"]
+- ["s9EquatableP", "dynamic"]
+- ["s9EquatableP", "fileprivate"]
+- ["s9EquatableP", "final"]
+- ["s9EquatableP", "infix"]
+- ["s9EquatableP", "internal"]
+- ["s9EquatableP", "lazy"]
+- ["s9EquatableP", "mutating"]
+- ["s9EquatableP", "nonmutating"]
+- ["s9EquatableP", "open"]
+- ["s9EquatableP", "optional"]
+- ["s9EquatableP", "override"]
+- ["s9EquatableP", "postfix"]
+- ["s9EquatableP", "prefix"]
+- ["s9EquatableP", "private"]
+- ["s9EquatableP", "public"]
+- ["s9EquatableP", "required"]
+- ["s9EquatableP", "static"]
+- ["s9EquatableP", "unowned"]
+- ["s9EquatableP", "weak"]
+- ["5Lexer5TokenV4KindO", "Bool"]
+- ["5Lexer5TokenV4KindO", "Token"]
+- ["5Lexer5TokenV4KindO", "accessLevelModifiers"]
+- ["5Lexer5TokenV4KindO", "class"]
+- ["5Lexer5TokenV4KindO", "convenience"]
+- ["5Lexer5TokenV4KindO", "declarationModifiers"]
+- ["5Lexer5TokenV4KindO", "dynamic"]
+- ["5Lexer5TokenV4KindO", "fileprivate"]
+- ["5Lexer5TokenV4KindO", "final"]
+- ["5Lexer5TokenV4KindO", "infix"]
+- ["5Lexer5TokenV4KindO", "internal"]
+- ["5Lexer5TokenV4KindO", "isModifier"]
+- ["5Lexer5TokenV4KindO", "lazy"]
+- ["5Lexer5TokenV4KindO", "mutating"]
+- ["5Lexer5TokenV4KindO", "mutationModifiers"]
+- ["5Lexer5TokenV4KindO", "nonmutating"]
+- ["5Lexer5TokenV4KindO", "open"]
+- ["5Lexer5TokenV4KindO", "optional"]
+- ["5Lexer5TokenV4KindO", "override"]
+- ["5Lexer5TokenV4KindO", "postfix"]
+- ["5Lexer5TokenV4KindO", "prefix"]
+- ["5Lexer5TokenV4KindO", "private"]
+- ["5Lexer5TokenV4KindO", "public"]
+- ["5Lexer5TokenV4KindO", "required"]
+- ["5Lexer5TokenV4KindO", "static"]
+- ["5Lexer5TokenV4KindO", "unowned"]
+- ["5Lexer5TokenV4KindO", "weak"]
+- ["6Source0A9LocatableP", "Kind"]
+- ["5Lexer5TokenV", "Kind"]
+depends-nominal:
+- "s9EquatableP"
+- "5Lexer5TokenV4KindO"
+- "6Source0A9LocatableP"
+- "5Lexer5TokenV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c47d9c2861c22b83e5210a77a1763db0"

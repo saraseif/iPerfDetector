@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Role"
+provides-nominal:
+- "5Lexer4RoleO"
+provides-member:
+- ["5Lexer4RoleO", ""]
+- ["5Lexer4RoleO", "role"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..."
+- "=="
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Role"
+- !private "StringLiteralType"
+- "UnicodeScalar"
+- !private "UnicodeScalarType"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "getRole"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isIdentifierBody"]
+- !private ["s10ComparableP", "isIdentifierCharacter"]
+- !private ["s10ComparableP", "isIdentifierHead"]
+- !private ["s10ComparableP", "isOperatorBody"]
+- !private ["s10ComparableP", "isOperatorCharacter"]
+- !private ["s10ComparableP", "isOperatorHead"]
+- !private ["s10ComparableP", "isSpace"]
+- !private ["s28CustomDebugStringConvertibleP", "getRole"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isIdentifierBody"]
+- !private ["s28CustomDebugStringConvertibleP", "isIdentifierCharacter"]
+- !private ["s28CustomDebugStringConvertibleP", "isIdentifierHead"]
+- !private ["s28CustomDebugStringConvertibleP", "isOperatorBody"]
+- !private ["s28CustomDebugStringConvertibleP", "isOperatorCharacter"]
+- !private ["s28CustomDebugStringConvertibleP", "isOperatorHead"]
+- !private ["s28CustomDebugStringConvertibleP", "isSpace"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "getRole"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isIdentifierBody"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isIdentifierCharacter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isIdentifierHead"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isOperatorBody"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isOperatorCharacter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isOperatorHead"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isSpace"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "getRole"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isIdentifierBody"]
+- !private ["s17CustomReflectableP", "isIdentifierCharacter"]
+- !private ["s17CustomReflectableP", "isIdentifierHead"]
+- !private ["s17CustomReflectableP", "isOperatorBody"]
+- !private ["s17CustomReflectableP", "isOperatorCharacter"]
+- !private ["s17CustomReflectableP", "isOperatorHead"]
+- !private ["s17CustomReflectableP", "isSpace"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "getRole"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isIdentifierBody"]
+- !private ["s23CustomStringConvertibleP", "isIdentifierCharacter"]
+- !private ["s23CustomStringConvertibleP", "isIdentifierHead"]
+- !private ["s23CustomStringConvertibleP", "isOperatorBody"]
+- !private ["s23CustomStringConvertibleP", "isOperatorCharacter"]
+- !private ["s23CustomStringConvertibleP", "isOperatorHead"]
+- !private ["s23CustomStringConvertibleP", "isSpace"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "amp"]
+- !private ["s9EquatableP", "arrow"]
+- !private ["s9EquatableP", "at"]
+- !private ["s9EquatableP", "backslash"]
+- !private ["s9EquatableP", "backtick"]
+- !private ["s9EquatableP", "carriageReturn"]
+- !private ["s9EquatableP", "colon"]
+- !private ["s9EquatableP", "comma"]
+- !private ["s9EquatableP", "digit"]
+- !private ["s9EquatableP", "dollar"]
+- !private ["s9EquatableP", "dotOperatorHead"]
+- !private ["s9EquatableP", "doubleQuote"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "exclaim"]
+- !private ["s9EquatableP", "getRole"]
+- !private ["s9EquatableP", "greaterThan"]
+- !private ["s9EquatableP", "hash"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "identifierBody"]
+- !private ["s9EquatableP", "identifierHead"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isIdentifierBody"]
+- !private ["s9EquatableP", "isIdentifierCharacter"]
+- !private ["s9EquatableP", "isIdentifierHead"]
+- !private ["s9EquatableP", "isOperatorBody"]
+- !private ["s9EquatableP", "isOperatorCharacter"]
+- !private ["s9EquatableP", "isOperatorHead"]
+- !private ["s9EquatableP", "isSpace"]
+- !private ["s9EquatableP", "leftBrace"]
+- !private ["s9EquatableP", "leftParen"]
+- !private ["s9EquatableP", "leftSquare"]
+- !private ["s9EquatableP", "lessThan"]
+- !private ["s9EquatableP", "lineFeed"]
+- !private ["s9EquatableP", "minus"]
+- !private ["s9EquatableP", "multipleLineCommentHead"]
+- !private ["s9EquatableP", "multipleLineCommentTail"]
+- !private ["s9EquatableP", "operatorBody"]
+- !private ["s9EquatableP", "operatorHead"]
+- !private ["s9EquatableP", "period"]
+- !private ["s9EquatableP", "question"]
+- !private ["s9EquatableP", "rightBrace"]
+- !private ["s9EquatableP", "rightParen"]
+- !private ["s9EquatableP", "rightSquare"]
+- !private ["s9EquatableP", "semi"]
+- !private ["s9EquatableP", "singleLineCommentHead"]
+- !private ["s9EquatableP", "space"]
+- !private ["s9EquatableP", "underscore"]
+- !private ["s9EquatableP", "unknown"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "getRole"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isIdentifierBody"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isIdentifierCharacter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isIdentifierHead"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isOperatorBody"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isOperatorCharacter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isOperatorHead"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isSpace"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "amp"]
+- !private ["s8HashableP", "arrow"]
+- !private ["s8HashableP", "at"]
+- !private ["s8HashableP", "backslash"]
+- !private ["s8HashableP", "backtick"]
+- !private ["s8HashableP", "carriageReturn"]
+- !private ["s8HashableP", "colon"]
+- !private ["s8HashableP", "comma"]
+- !private ["s8HashableP", "digit"]
+- !private ["s8HashableP", "dollar"]
+- !private ["s8HashableP", "dotOperatorHead"]
+- !private ["s8HashableP", "doubleQuote"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "exclaim"]
+- !private ["s8HashableP", "getRole"]
+- !private ["s8HashableP", "greaterThan"]
+- !private ["s8HashableP", "hash"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "identifierBody"]
+- !private ["s8HashableP", "identifierHead"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isIdentifierBody"]
+- !private ["s8HashableP", "isIdentifierCharacter"]
+- !private ["s8HashableP", "isIdentifierHead"]
+- !private ["s8HashableP", "isOperatorBody"]
+- !private ["s8HashableP", "isOperatorCharacter"]
+- !private ["s8HashableP", "isOperatorHead"]
+- !private ["s8HashableP", "isSpace"]
+- !private ["s8HashableP", "leftBrace"]
+- !private ["s8HashableP", "leftParen"]
+- !private ["s8HashableP", "leftSquare"]
+- !private ["s8HashableP", "lessThan"]
+- !private ["s8HashableP", "lineFeed"]
+- !private ["s8HashableP", "minus"]
+- !private ["s8HashableP", "multipleLineCommentHead"]
+- !private ["s8HashableP", "multipleLineCommentTail"]
+- !private ["s8HashableP", "operatorBody"]
+- !private ["s8HashableP", "operatorHead"]
+- !private ["s8HashableP", "period"]
+- !private ["s8HashableP", "question"]
+- !private ["s8HashableP", "rightBrace"]
+- !private ["s8HashableP", "rightParen"]
+- !private ["s8HashableP", "rightSquare"]
+- !private ["s8HashableP", "semi"]
+- !private ["s8HashableP", "singleLineCommentHead"]
+- !private ["s8HashableP", "space"]
+- !private ["s8HashableP", "underscore"]
+- !private ["s8HashableP", "unknown"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "getRole"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isIdentifierBody"]
+- !private ["s25LosslessStringConvertibleP", "isIdentifierCharacter"]
+- !private ["s25LosslessStringConvertibleP", "isIdentifierHead"]
+- !private ["s25LosslessStringConvertibleP", "isOperatorBody"]
+- !private ["s25LosslessStringConvertibleP", "isOperatorCharacter"]
+- !private ["s25LosslessStringConvertibleP", "isOperatorHead"]
+- !private ["s25LosslessStringConvertibleP", "isSpace"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- ["5Lexer4RoleO", "Role"]
+- ["5Lexer4RoleO", "UnicodeScalar"]
+- ["5Lexer4RoleO", "__derived_enum_equals"]
+- ["5Lexer4RoleO", "amp"]
+- ["5Lexer4RoleO", "arrow"]
+- ["5Lexer4RoleO", "at"]
+- ["5Lexer4RoleO", "backslash"]
+- ["5Lexer4RoleO", "backtick"]
+- ["5Lexer4RoleO", "carriageReturn"]
+- ["5Lexer4RoleO", "colon"]
+- ["5Lexer4RoleO", "comma"]
+- ["5Lexer4RoleO", "deinit"]
+- ["5Lexer4RoleO", "digit"]
+- ["5Lexer4RoleO", "dollar"]
+- ["5Lexer4RoleO", "dotOperatorHead"]
+- ["5Lexer4RoleO", "doubleQuote"]
+- ["5Lexer4RoleO", "eof"]
+- ["5Lexer4RoleO", "equal"]
+- ["5Lexer4RoleO", "exclaim"]
+- ["5Lexer4RoleO", "greaterThan"]
+- ["5Lexer4RoleO", "hash"]
+- ["5Lexer4RoleO", "hashValue"]
+- ["5Lexer4RoleO", "identifierBody"]
+- ["5Lexer4RoleO", "identifierHead"]
+- ["5Lexer4RoleO", "leftBrace"]
+- ["5Lexer4RoleO", "leftParen"]
+- ["5Lexer4RoleO", "leftSquare"]
+- ["5Lexer4RoleO", "lessThan"]
+- ["5Lexer4RoleO", "lineFeed"]
+- ["5Lexer4RoleO", "minus"]
+- ["5Lexer4RoleO", "multipleLineCommentHead"]
+- ["5Lexer4RoleO", "multipleLineCommentTail"]
+- ["5Lexer4RoleO", "operatorBody"]
+- ["5Lexer4RoleO", "operatorHead"]
+- ["5Lexer4RoleO", "period"]
+- ["5Lexer4RoleO", "question"]
+- ["5Lexer4RoleO", "rightBrace"]
+- ["5Lexer4RoleO", "rightParen"]
+- ["5Lexer4RoleO", "rightSquare"]
+- ["5Lexer4RoleO", "role"]
+- ["5Lexer4RoleO", "semi"]
+- ["5Lexer4RoleO", "singleLineCommentHead"]
+- ["5Lexer4RoleO", "space"]
+- ["5Lexer4RoleO", "underscore"]
+- ["5Lexer4RoleO", "unknown"]
+- !private ["s7UnicodeO6ScalarV", "Bool"]
+- !private ["s7UnicodeO6ScalarV", "Role"]
+- !private ["s7UnicodeO6ScalarV", "UnicodeScalar"]
+- !private ["s7UnicodeO6ScalarV", "getRole"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- !private ["s7UnicodeO6ScalarV", "isIdentifierBody"]
+- !private ["s7UnicodeO6ScalarV", "isIdentifierCharacter"]
+- !private ["s7UnicodeO6ScalarV", "isIdentifierHead"]
+- !private ["s7UnicodeO6ScalarV", "isOperatorBody"]
+- !private ["s7UnicodeO6ScalarV", "isOperatorCharacter"]
+- !private ["s7UnicodeO6ScalarV", "isOperatorHead"]
+- !private ["s7UnicodeO6ScalarV", "isSpace"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s20TextOutputStreamableP", "getRole"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isIdentifierBody"]
+- !private ["s20TextOutputStreamableP", "isIdentifierCharacter"]
+- !private ["s20TextOutputStreamableP", "isIdentifierHead"]
+- !private ["s20TextOutputStreamableP", "isOperatorBody"]
+- !private ["s20TextOutputStreamableP", "isOperatorCharacter"]
+- !private ["s20TextOutputStreamableP", "isOperatorHead"]
+- !private ["s20TextOutputStreamableP", "isSpace"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "getRole"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isIdentifierBody"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isIdentifierCharacter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isIdentifierHead"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isOperatorBody"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isOperatorCharacter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isOperatorHead"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isSpace"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- "5Lexer4RoleO"
+- !private "s7UnicodeO6ScalarV"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6ca15147aac44a06300414bcca278e59"

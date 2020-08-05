@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "1b7dde68ce0b053caf0c0a0b32a02132"
+build_time: [1510249007, 322116000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/Diagnostic.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticConsumer.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticKind.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Diagnostic/DiagnosticPool.swift": [1510248963, 0]

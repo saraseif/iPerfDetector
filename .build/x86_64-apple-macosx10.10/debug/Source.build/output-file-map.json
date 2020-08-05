@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/Comment.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Comment.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Comment.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Comment~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Comment.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/CommentSet.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/CommentSet.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/CommentSet.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/CommentSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/CommentSet.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/Shebang.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Shebang.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Shebang.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Shebang~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/Shebang.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceError.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceError.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceError.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceError~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceError.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceFile.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceFile.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceFile.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceFile.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceLocatable.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocatable.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocatable.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocatable.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceLocation.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocation.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocation.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceLocation.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceRange.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceRange.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceRange.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceRange~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceRange.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Source/SourceReader.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceReader.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceReader.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.build/SourceReader.swiftdeps"
+  }
+}

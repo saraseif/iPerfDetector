@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Token"
+provides-nominal:
+- "5Lexer5TokenV"
+- "5Lexer5TokenV4KindO"
+provides-member:
+- ["5Lexer5TokenV", ""]
+- ["5Lexer5TokenV4KindO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Double"
+- "Int"
+- "Role"
+- "SourceLocatable"
+- "SourceRange"
+- "String"
+- "Token"
+- "TokenInvalidReason"
+depends-member:
+- ["5Lexer5TokenV4KindO", "Any"]
+- ["5Lexer5TokenV4KindO", "Bool"]
+- ["5Lexer5TokenV4KindO", "Double"]
+- ["5Lexer5TokenV4KindO", "Int"]
+- ["5Lexer5TokenV4KindO", "Protocol"]
+- ["5Lexer5TokenV4KindO", "Self"]
+- ["5Lexer5TokenV4KindO", "String"]
+- ["5Lexer5TokenV4KindO", "TokenInvalidReason"]
+- ["5Lexer5TokenV4KindO", "Type"]
+- ["5Lexer5TokenV4KindO", "arrow"]
+- ["5Lexer5TokenV4KindO", "as"]
+- ["5Lexer5TokenV4KindO", "assignmentOperator"]
+- ["5Lexer5TokenV4KindO", "associativity"]
+- ["5Lexer5TokenV4KindO", "at"]
+- ["5Lexer5TokenV4KindO", "backslash"]
+- ["5Lexer5TokenV4KindO", "binaryOperator"]
+- ["5Lexer5TokenV4KindO", "binaryQuestion"]
+- ["5Lexer5TokenV4KindO", "booleanLiteral"]
+- ["5Lexer5TokenV4KindO", "break"]
+- ["5Lexer5TokenV4KindO", "case"]
+- ["5Lexer5TokenV4KindO", "catch"]
+- ["5Lexer5TokenV4KindO", "class"]
+- ["5Lexer5TokenV4KindO", "colon"]
+- ["5Lexer5TokenV4KindO", "comma"]
+- ["5Lexer5TokenV4KindO", "continue"]
+- ["5Lexer5TokenV4KindO", "convenience"]
+- ["5Lexer5TokenV4KindO", "default"]
+- ["5Lexer5TokenV4KindO", "defer"]
+- ["5Lexer5TokenV4KindO", "deinit"]
+- ["5Lexer5TokenV4KindO", "didSet"]
+- ["5Lexer5TokenV4KindO", "do"]
+- ["5Lexer5TokenV4KindO", "dot"]
+- ["5Lexer5TokenV4KindO", "dynamic"]
+- ["5Lexer5TokenV4KindO", "else"]
+- ["5Lexer5TokenV4KindO", "enum"]
+- ["5Lexer5TokenV4KindO", "eof"]
+- ["5Lexer5TokenV4KindO", "extension"]
+- ["5Lexer5TokenV4KindO", "fallthrough"]
+- ["5Lexer5TokenV4KindO", "fileprivate"]
+- ["5Lexer5TokenV4KindO", "final"]
+- ["5Lexer5TokenV4KindO", "floatingPointLiteral"]
+- ["5Lexer5TokenV4KindO", "for"]
+- ["5Lexer5TokenV4KindO", "func"]
+- ["5Lexer5TokenV4KindO", "get"]
+- ["5Lexer5TokenV4KindO", "guard"]
+- ["5Lexer5TokenV4KindO", "hash"]
+- ["5Lexer5TokenV4KindO", "identifier"]
+- ["5Lexer5TokenV4KindO", "if"]
+- ["5Lexer5TokenV4KindO", "implicitParameterName"]
+- ["5Lexer5TokenV4KindO", "import"]
+- ["5Lexer5TokenV4KindO", "in"]
+- ["5Lexer5TokenV4KindO", "indirect"]
+- ["5Lexer5TokenV4KindO", "infix"]
+- ["5Lexer5TokenV4KindO", "init"]
+- ["5Lexer5TokenV4KindO", "inout"]
+- ["5Lexer5TokenV4KindO", "integerLiteral"]
+- ["5Lexer5TokenV4KindO", "internal"]
+- ["5Lexer5TokenV4KindO", "interpolatedStringLiteralHead"]
+- ["5Lexer5TokenV4KindO", "invalid"]
+- ["5Lexer5TokenV4KindO", "is"]
+- ["5Lexer5TokenV4KindO", "lazy"]
+- ["5Lexer5TokenV4KindO", "left"]
+- ["5Lexer5TokenV4KindO", "leftBrace"]
+- ["5Lexer5TokenV4KindO", "leftChevron"]
+- ["5Lexer5TokenV4KindO", "leftParen"]
+- ["5Lexer5TokenV4KindO", "leftSquare"]
+- ["5Lexer5TokenV4KindO", "let"]
+- ["5Lexer5TokenV4KindO", "lineFeed"]
+- ["5Lexer5TokenV4KindO", "mutating"]
+- ["5Lexer5TokenV4KindO", "nil"]
+- ["5Lexer5TokenV4KindO", "none"]
+- ["5Lexer5TokenV4KindO", "nonmutating"]
+- ["5Lexer5TokenV4KindO", "open"]
+- ["5Lexer5TokenV4KindO", "operator"]
+- ["5Lexer5TokenV4KindO", "optional"]
+- ["5Lexer5TokenV4KindO", "override"]
+- ["5Lexer5TokenV4KindO", "postfix"]
+- ["5Lexer5TokenV4KindO", "postfixExclaim"]
+- ["5Lexer5TokenV4KindO", "postfixOperator"]
+- ["5Lexer5TokenV4KindO", "postfixQuestion"]
+- ["5Lexer5TokenV4KindO", "precedence"]
+- ["5Lexer5TokenV4KindO", "prefix"]
+- ["5Lexer5TokenV4KindO", "prefixAmp"]
+- ["5Lexer5TokenV4KindO", "prefixOperator"]
+- ["5Lexer5TokenV4KindO", "prefixQuestion"]
+- ["5Lexer5TokenV4KindO", "private"]
+- ["5Lexer5TokenV4KindO", "protocol"]
+- ["5Lexer5TokenV4KindO", "public"]
+- ["5Lexer5TokenV4KindO", "repeat"]
+- ["5Lexer5TokenV4KindO", "required"]
+- ["5Lexer5TokenV4KindO", "rethrows"]
+- ["5Lexer5TokenV4KindO", "return"]
+- ["5Lexer5TokenV4KindO", "right"]
+- ["5Lexer5TokenV4KindO", "rightBrace"]
+- ["5Lexer5TokenV4KindO", "rightChevron"]
+- ["5Lexer5TokenV4KindO", "rightParen"]
+- ["5Lexer5TokenV4KindO", "rightSquare"]
+- ["5Lexer5TokenV4KindO", "safe"]
+- ["5Lexer5TokenV4KindO", "self"]
+- ["5Lexer5TokenV4KindO", "semicolon"]
+- ["5Lexer5TokenV4KindO", "set"]
+- ["5Lexer5TokenV4KindO", "static"]
+- ["5Lexer5TokenV4KindO", "staticStringLiteral"]
+- ["5Lexer5TokenV4KindO", "struct"]
+- ["5Lexer5TokenV4KindO", "subscript"]
+- ["5Lexer5TokenV4KindO", "super"]
+- ["5Lexer5TokenV4KindO", "switch"]
+- ["5Lexer5TokenV4KindO", "throw"]
+- ["5Lexer5TokenV4KindO", "throws"]
+- ["5Lexer5TokenV4KindO", "try"]
+- ["5Lexer5TokenV4KindO", "typealias"]
+- ["5Lexer5TokenV4KindO", "underscore"]
+- ["5Lexer5TokenV4KindO", "unowned"]
+- ["5Lexer5TokenV4KindO", "unsafe"]
+- ["5Lexer5TokenV4KindO", "var"]
+- ["5Lexer5TokenV4KindO", "weak"]
+- ["5Lexer5TokenV4KindO", "where"]
+- ["5Lexer5TokenV4KindO", "while"]
+- ["5Lexer5TokenV4KindO", "willSet"]
+- ["6Source0A9LocatableP", "sourceLocation"]
+- ["6Source0A9LocatableP", "sourceRange"]
+- ["6Source0A9LocatableP", ""]
+- ["5Lexer5TokenV", "Bool"]
+- ["5Lexer5TokenV", "Double"]
+- ["5Lexer5TokenV", "Int"]
+- ["5Lexer5TokenV", "Kind"]
+- ["5Lexer5TokenV", "Role"]
+- ["5Lexer5TokenV", "SourceRange"]
+- ["5Lexer5TokenV", "String"]
+- ["5Lexer5TokenV", "TokenInvalidReason"]
+- ["5Lexer5TokenV", "deinit"]
+- ["5Lexer5TokenV", "init"]
+- ["5Lexer5TokenV", "kind"]
+- ["5Lexer5TokenV", "roles"]
+- ["5Lexer5TokenV", "sourceLocation"]
+- ["5Lexer5TokenV", "sourceRange"]
+depends-nominal:
+- "5Lexer5TokenV4KindO"
+- "6Source0A9LocatableP"
+- "5Lexer5TokenV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5b61cf9d199f75b4dc869891a4b062c9"

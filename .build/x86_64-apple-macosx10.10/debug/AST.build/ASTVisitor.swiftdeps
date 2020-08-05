@@ -1,0 +1,214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ASTVisitor"
+provides-nominal:
+- "3AST10ASTVisitorP"
+provides-member:
+- ["3AST10ASTVisitorP", ""]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+- ["3AST10ASTVisitorP", "visit"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ASTVisitor"
+- "AssignmentOperatorExpression"
+- "BinaryOperatorExpression"
+- "Bool"
+- !private "BooleanLiteralType"
+- "BreakStatement"
+- "ClassDeclaration"
+- "ClosureExpression"
+- "CodeBlock"
+- "CompilerControlStatement"
+- "ConstantDeclaration"
+- "ContinueStatement"
+- "DeferStatement"
+- "DeinitializerDeclaration"
+- "DoStatement"
+- "EnumDeclaration"
+- "ExplicitMemberExpression"
+- "ExtensionDeclaration"
+- "FallthroughStatement"
+- "ForInStatement"
+- "ForcedValueExpression"
+- "FunctionCallExpression"
+- "FunctionDeclaration"
+- "GuardStatement"
+- "IdentifierExpression"
+- "IfStatement"
+- "ImplicitMemberExpression"
+- "ImportDeclaration"
+- "InOutExpression"
+- "InitializerDeclaration"
+- "InitializerExpression"
+- "KeyPathStringExpression"
+- "LabeledStatement"
+- "LiteralExpression"
+- "OperatorDeclaration"
+- "OptionalChainingExpression"
+- "ParenthesizedExpression"
+- "PostfixOperatorExpression"
+- "PostfixSelfExpression"
+- "PrecedenceGroupDeclaration"
+- "PrefixOperatorExpression"
+- "ProtocolDeclaration"
+- "RepeatWhileStatement"
+- "ReturnStatement"
+- "SelectorExpression"
+- "SelfExpression"
+- "SequenceExpression"
+- "StructDeclaration"
+- "SubscriptDeclaration"
+- "SubscriptExpression"
+- "SuperclassExpression"
+- "SwitchStatement"
+- "TernaryConditionalOperatorExpression"
+- "ThrowStatement"
+- "TopLevelDeclaration"
+- "TryOperatorExpression"
+- "TupleExpression"
+- "TypeCastingOperatorExpression"
+- "TypealiasDeclaration"
+- "VariableDeclaration"
+- "WhileStatement"
+- "WildcardExpression"
+depends-member:
+- ["3AST10ASTVisitorP", "AssignmentOperatorExpression"]
+- ["3AST10ASTVisitorP", "BinaryOperatorExpression"]
+- ["3AST10ASTVisitorP", "Bool"]
+- ["3AST10ASTVisitorP", "BreakStatement"]
+- ["3AST10ASTVisitorP", "ClassDeclaration"]
+- ["3AST10ASTVisitorP", "ClosureExpression"]
+- ["3AST10ASTVisitorP", "CodeBlock"]
+- ["3AST10ASTVisitorP", "CompilerControlStatement"]
+- ["3AST10ASTVisitorP", "ConstantDeclaration"]
+- ["3AST10ASTVisitorP", "ContinueStatement"]
+- ["3AST10ASTVisitorP", "DeferStatement"]
+- ["3AST10ASTVisitorP", "DeinitializerDeclaration"]
+- ["3AST10ASTVisitorP", "DoStatement"]
+- ["3AST10ASTVisitorP", "EnumDeclaration"]
+- ["3AST10ASTVisitorP", "ExplicitMemberExpression"]
+- ["3AST10ASTVisitorP", "ExtensionDeclaration"]
+- ["3AST10ASTVisitorP", "FallthroughStatement"]
+- ["3AST10ASTVisitorP", "ForInStatement"]
+- ["3AST10ASTVisitorP", "ForcedValueExpression"]
+- ["3AST10ASTVisitorP", "FunctionCallExpression"]
+- ["3AST10ASTVisitorP", "FunctionDeclaration"]
+- ["3AST10ASTVisitorP", "GuardStatement"]
+- ["3AST10ASTVisitorP", "IdentifierExpression"]
+- ["3AST10ASTVisitorP", "IfStatement"]
+- ["3AST10ASTVisitorP", "ImplicitMemberExpression"]
+- ["3AST10ASTVisitorP", "ImportDeclaration"]
+- ["3AST10ASTVisitorP", "InOutExpression"]
+- ["3AST10ASTVisitorP", "InitializerDeclaration"]
+- ["3AST10ASTVisitorP", "InitializerExpression"]
+- ["3AST10ASTVisitorP", "KeyPathStringExpression"]
+- ["3AST10ASTVisitorP", "LabeledStatement"]
+- ["3AST10ASTVisitorP", "LiteralExpression"]
+- ["3AST10ASTVisitorP", "OperatorDeclaration"]
+- ["3AST10ASTVisitorP", "OptionalChainingExpression"]
+- ["3AST10ASTVisitorP", "ParenthesizedExpression"]
+- ["3AST10ASTVisitorP", "PostfixOperatorExpression"]
+- ["3AST10ASTVisitorP", "PostfixSelfExpression"]
+- ["3AST10ASTVisitorP", "PrecedenceGroupDeclaration"]
+- ["3AST10ASTVisitorP", "PrefixOperatorExpression"]
+- ["3AST10ASTVisitorP", "ProtocolDeclaration"]
+- ["3AST10ASTVisitorP", "RepeatWhileStatement"]
+- ["3AST10ASTVisitorP", "ReturnStatement"]
+- ["3AST10ASTVisitorP", "SelectorExpression"]
+- ["3AST10ASTVisitorP", "SelfExpression"]
+- ["3AST10ASTVisitorP", "SequenceExpression"]
+- ["3AST10ASTVisitorP", "StructDeclaration"]
+- ["3AST10ASTVisitorP", "SubscriptDeclaration"]
+- ["3AST10ASTVisitorP", "SubscriptExpression"]
+- ["3AST10ASTVisitorP", "SuperclassExpression"]
+- ["3AST10ASTVisitorP", "SwitchStatement"]
+- ["3AST10ASTVisitorP", "TernaryConditionalOperatorExpression"]
+- ["3AST10ASTVisitorP", "ThrowStatement"]
+- ["3AST10ASTVisitorP", "TopLevelDeclaration"]
+- ["3AST10ASTVisitorP", "TryOperatorExpression"]
+- ["3AST10ASTVisitorP", "TupleExpression"]
+- ["3AST10ASTVisitorP", "TypeCastingOperatorExpression"]
+- ["3AST10ASTVisitorP", "TypealiasDeclaration"]
+- ["3AST10ASTVisitorP", "VariableDeclaration"]
+- ["3AST10ASTVisitorP", "WhileStatement"]
+- ["3AST10ASTVisitorP", "WildcardExpression"]
+- ["3AST10ASTVisitorP", "visit"]
+depends-nominal:
+- "3AST10ASTVisitorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "64c1965c8f4c1e5d6cda25b29572b506"

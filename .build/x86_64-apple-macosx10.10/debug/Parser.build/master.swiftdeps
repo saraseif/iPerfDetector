@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "5b3eac82bcd7c1d24bd7222a4fea1c1b"
+build_time: [1510249050, 884908000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Attribute.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Common.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Declaration.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Diagnostic.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Expression.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Generic.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Modifier.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Pattern.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Statement.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Type.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser+Util.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Parser/Parser.swift": [1510248963, 0]

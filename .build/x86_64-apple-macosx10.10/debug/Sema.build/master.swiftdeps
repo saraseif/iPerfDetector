@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "64648f9d3934c63f58510275846b131f"
+build_time: [1510249050, 887167000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Sema/LexicalParentAssignment.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Sema/SequenceExpressionFolding.swift": [1510248963, 0]

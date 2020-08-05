@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForInStatement"
+provides-nominal:
+- "3AST14ForInStatementC"
+- "3AST14ForInStatementC4ItemV"
+provides-member:
+- ["3AST14ForInStatementC", ""]
+- ["3AST14ForInStatementC4ItemV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "ASTNode"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CodeBlock"
+- "Expression"
+- "ForInStatement"
+- "Pattern"
+- "Statement"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- ["3AST7ASTNodeC", "Bool"]
+- ["3AST7ASTNodeC", "CodeBlock"]
+- ["3AST7ASTNodeC", "Expression"]
+- ["3AST7ASTNodeC", "Item"]
+- ["3AST7ASTNodeC", "Pattern"]
+- ["3AST7ASTNodeC", "String"]
+- ["3AST7ASTNodeC", "codeBlock"]
+- ["3AST7ASTNodeC", "collection"]
+- ["3AST7ASTNodeC", "init"]
+- ["3AST7ASTNodeC", "item"]
+- ["3AST7ASTNodeC", "replaceCollection"]
+- ["3AST7ASTNodeC", "replaceWhereClause"]
+- ["3AST7ASTNodeC", "textDescription"]
+- ["3AST7ASTNodeC", ""]
+- !private ["3AST14ASTNodeContextP", "Item"]
+- !private ["3AST14ASTNodeContextP", "codeBlock"]
+- !private ["3AST14ASTNodeContextP", "collection"]
+- !private ["3AST14ASTNodeContextP", "init"]
+- !private ["3AST14ASTNodeContextP", "item"]
+- !private ["3AST14ASTNodeContextP", "textDescription"]
+- ["3AST14ASTNodeContextP", ""]
+- !private ["3AST20ASTTextRepresentableP", "Item"]
+- !private ["3AST20ASTTextRepresentableP", "codeBlock"]
+- !private ["3AST20ASTTextRepresentableP", "collection"]
+- !private ["3AST20ASTTextRepresentableP", "init"]
+- !private ["3AST20ASTTextRepresentableP", "item"]
+- !private ["3AST20ASTTextRepresentableP", "textDescription"]
+- ["3AST20ASTTextRepresentableP", ""]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3AST9CodeBlockC", "deinit"]
+- !private ["3AST9CodeBlockC", "textDescription"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Item"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "codeBlock"]
+- !private ["s23CustomStringConvertibleP", "collection"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "textDescription"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["3AST10ExpressionP", "textDescription"]
+- ["3AST14ForInStatementC", "Bool"]
+- ["3AST14ForInStatementC", "CodeBlock"]
+- ["3AST14ForInStatementC", "Expression"]
+- ["3AST14ForInStatementC", "Item"]
+- ["3AST14ForInStatementC", "Pattern"]
+- ["3AST14ForInStatementC", "String"]
+- ["3AST14ForInStatementC", "codeBlock"]
+- ["3AST14ForInStatementC", "collection"]
+- ["3AST14ForInStatementC", "deinit"]
+- ["3AST14ForInStatementC", "init"]
+- ["3AST14ForInStatementC", "item"]
+- ["3AST14ForInStatementC", "replaceCollection"]
+- ["3AST14ForInStatementC", "replaceWhereClause"]
+- ["3AST14ForInStatementC", "textDescription"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- ["3AST14ForInStatementC4ItemV", "Bool"]
+- ["3AST14ForInStatementC4ItemV", "Expression"]
+- ["3AST14ForInStatementC4ItemV", "Pattern"]
+- ["3AST14ForInStatementC4ItemV", "init"]
+- ["3AST14ForInStatementC4ItemV", "isCaseMatching"]
+- ["3AST14ForInStatementC4ItemV", "matchingPattern"]
+- ["3AST14ForInStatementC4ItemV", "whereClause"]
+- ["3AST13LocatableNodeC", "Bool"]
+- ["3AST13LocatableNodeC", "CodeBlock"]
+- ["3AST13LocatableNodeC", "Expression"]
+- ["3AST13LocatableNodeC", "Item"]
+- ["3AST13LocatableNodeC", "Pattern"]
+- ["3AST13LocatableNodeC", "String"]
+- ["3AST13LocatableNodeC", "codeBlock"]
+- ["3AST13LocatableNodeC", "collection"]
+- ["3AST13LocatableNodeC", "init"]
+- ["3AST13LocatableNodeC", "item"]
+- ["3AST13LocatableNodeC", "replaceCollection"]
+- ["3AST13LocatableNodeC", "replaceWhereClause"]
+- ["3AST13LocatableNodeC", "textDescription"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["3AST7PatternP", "textDescription"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["6Source0A9LocatableP", "Item"]
+- !private ["6Source0A9LocatableP", "codeBlock"]
+- !private ["6Source0A9LocatableP", "collection"]
+- !private ["6Source0A9LocatableP", "init"]
+- !private ["6Source0A9LocatableP", "item"]
+- !private ["6Source0A9LocatableP", "textDescription"]
+- ["6Source0A9LocatableP", ""]
+- !private ["3AST9StatementP", "Item"]
+- !private ["3AST9StatementP", "codeBlock"]
+- !private ["3AST9StatementP", "collection"]
+- !private ["3AST9StatementP", "item"]
+- !private ["3AST9StatementP", "textDescription"]
+- ["3AST9StatementP", ""]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "3AST7ASTNodeC"
+- "3AST14ASTNodeContextP"
+- "3AST20ASTTextRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "3AST9CodeBlockC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3AST10ExpressionP"
+- "3AST14ForInStatementC"
+- !private "s8HashableP"
+- "3AST14ForInStatementC4ItemV"
+- "3AST13LocatableNodeC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "3AST7PatternP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "6Source0A9LocatableP"
+- "3AST9StatementP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5f091809bea83a2aff0ddac00056f4c9"

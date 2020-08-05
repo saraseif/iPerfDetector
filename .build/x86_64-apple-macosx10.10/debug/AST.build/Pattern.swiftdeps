@@ -1,0 +1,77 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Pattern"
+- "PatternBase"
+provides-nominal:
+- "3AST7PatternP"
+- "3AST11PatternBaseC"
+provides-member:
+- ["3AST7PatternP", ""]
+- ["3AST11PatternBaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ASTTextRepresentable"
+- "LocatableNode"
+- "Pattern"
+- "PatternBase"
+- "SourceLocatable"
+depends-member:
+- ["3AST20ASTTextRepresentableP", "description"]
+- ["3AST20ASTTextRepresentableP", "sourceLocation"]
+- ["3AST20ASTTextRepresentableP", "sourceRange"]
+- ["3AST20ASTTextRepresentableP", "textDescription"]
+- ["3AST20ASTTextRepresentableP", ""]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "sourceLocation"]
+- ["s23CustomStringConvertibleP", "sourceRange"]
+- ["s23CustomStringConvertibleP", "textDescription"]
+- ["s23CustomStringConvertibleP", ""]
+- ["3AST13LocatableNodeC", "description"]
+- ["3AST13LocatableNodeC", "init"]
+- ["3AST13LocatableNodeC", "sourceLocation"]
+- ["3AST13LocatableNodeC", "sourceRange"]
+- ["3AST13LocatableNodeC", "textDescription"]
+- ["3AST13LocatableNodeC", ""]
+- ["3AST7PatternP", "description"]
+- ["3AST7PatternP", "sourceLocation"]
+- ["3AST7PatternP", "sourceRange"]
+- ["3AST7PatternP", "textDescription"]
+- ["3AST7PatternP", ""]
+- ["3AST11PatternBaseC", "deinit"]
+- ["3AST11PatternBaseC", "description"]
+- ["3AST11PatternBaseC", "init"]
+- ["3AST11PatternBaseC", "sourceLocation"]
+- ["3AST11PatternBaseC", "sourceRange"]
+- ["3AST11PatternBaseC", "textDescription"]
+- ["6Source0A9LocatableP", "description"]
+- ["6Source0A9LocatableP", "sourceLocation"]
+- ["6Source0A9LocatableP", "sourceRange"]
+- ["6Source0A9LocatableP", "textDescription"]
+- ["6Source0A9LocatableP", ""]
+depends-nominal:
+- "3AST20ASTTextRepresentableP"
+- "s23CustomStringConvertibleP"
+- "3AST13LocatableNodeC"
+- "3AST7PatternP"
+- "3AST11PatternBaseC"
+- "6Source0A9LocatableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4a21d6d44d64ef7c6d8445604d793b09"

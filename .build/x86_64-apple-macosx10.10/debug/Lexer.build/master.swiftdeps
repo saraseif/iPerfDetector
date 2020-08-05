@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "26d47857440fea8f1113af48ba877a93"
+build_time: [1510249008, 95101000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Char.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Checkpoint.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Comment.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Identifier.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+NumericLiteral.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+Operator.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer+StringLiteral.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Lexer.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Role+Lexer.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Role.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Scanner.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/Token.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenInvalidReason.swift": [1510248964, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Dummy.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Equatable.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Modifier.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/TokenKind+Naming.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/swift-ast.git-8063689949984878003/Sources/Lexer/UnicodeScalar+Lexer.swift": [1510248963, 0]

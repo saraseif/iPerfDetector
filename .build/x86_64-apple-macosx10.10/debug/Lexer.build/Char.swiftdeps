@@ -1,0 +1,127 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Char"
+- "=="
+provides-nominal:
+- "5Lexer4CharV"
+provides-member:
+- ["5Lexer4CharV", ""]
+- ["5Lexer4CharV", "string"]
+- ["5Lexer4CharV", "int"]
+- ["5Lexer4CharV", "eof"]
+- ["5Lexer4CharV", "doubleQuote"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "Bool"
+- "Char"
+- "Equatable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Role"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalar"
+- "UnicodeScalarType"
+depends-member:
+- ["5Lexer4CharV", "=="]
+- ["5Lexer4CharV", "Bool"]
+- ["5Lexer4CharV", "Char"]
+- ["5Lexer4CharV", "Int"]
+- ["5Lexer4CharV", "Role"]
+- ["5Lexer4CharV", "String"]
+- ["5Lexer4CharV", "UnicodeScalar"]
+- ["5Lexer4CharV", "deinit"]
+- ["5Lexer4CharV", "doubleQuote"]
+- ["5Lexer4CharV", "eof"]
+- ["5Lexer4CharV", "init"]
+- ["5Lexer4CharV", "int"]
+- ["5Lexer4CharV", "role"]
+- ["5Lexer4CharV", "string"]
+- ["5Lexer4CharV", "unicodeScalar"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "int"]
+- !private ["s10ComparableP", "string"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "int"]
+- !private ["s29CustomPlaygroundQuickLookableP", "string"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "int"]
+- !private ["s17CustomReflectableP", "string"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s9EquatableP", "Char"]
+- ["s9EquatableP", "UnicodeScalar"]
+- ["s9EquatableP", "doubleQuote"]
+- ["s9EquatableP", "eof"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "role"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "unicodeScalar"]
+- ["s9EquatableP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["s8HashableP", "doubleQuote"]
+- ["s8HashableP", "eof"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "int"]
+- !private ["s8HashableP", "string"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "int"]
+- !private ["s25LosslessStringConvertibleP", "string"]
+- !private ["5Lexer4RoleO", "deinit"]
+- ["5Lexer4RoleO", "doubleQuote"]
+- ["5Lexer4RoleO", "eof"]
+- ["s7UnicodeO6ScalarV", "init"]
+- !private ["s7UnicodeO6ScalarV", "int"]
+- !private ["s7UnicodeO6ScalarV", "string"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "int"]
+- !private ["s20TextOutputStreamableP", "string"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "int"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "string"]
+depends-nominal:
+- "5Lexer4CharV"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "5Lexer4RoleO"
+- "s7UnicodeO6ScalarV"
+- "s20TextOutputStreamableP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "eaae286483ff3fd375e0affb9067eedc"

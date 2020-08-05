@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/master.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/CommandLine/CLIOption.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/CLIOption.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/CommandLine/CLIOption.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/CLIOption~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/CLIOption.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagiba+Merge.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba+Merge.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba/DotYanagiba+Merge.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba+Merge~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba+Merge.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaModels.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaModels.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba/DotYanagibaModels.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaModels.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaParser.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaParser.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba/DotYanagibaParser.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaParser.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaReader.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaReader.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagiba/DotYanagibaReader.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/DotYanagibaReader.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+FileHandle.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+FileHandle.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/SwiftExtensions/String+FileHandle.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+FileHandle~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+FileHandle.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+Indentation.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Indentation.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/SwiftExtensions/String+Indentation.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Indentation~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Indentation.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+Path.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Path.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/SwiftExtensions/String+Path.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Path~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+Path.swiftdeps"
+  },
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+TTYColor.swift": {
+    "dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+TTYColor.d",
+    "object": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/SwiftExtensions/String+TTYColor.swift.o",
+    "swiftmodule": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+TTYColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.build/String+TTYColor.swiftdeps"
+  }
+}

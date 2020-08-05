@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Identifier"
+provides-nominal:
+- "SS"
+provides-member:
+- ["SS", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ASTTextRepresentable"
+- "Identifier"
+- "String"
+depends-member:
+- ["3AST20ASTTextRepresentableP", "textDescription"]
+- ["3AST20ASTTextRepresentableP", ""]
+- ["s23BidirectionalCollectionP", "textDescription"]
+- ["s7CVarArgP", "textDescription"]
+- ["s10CollectionP", "textDescription"]
+- ["s10ComparableP", "textDescription"]
+- ["s28CustomDebugStringConvertibleP", "textDescription"]
+- ["s29CustomPlaygroundQuickLookableP", "textDescription"]
+- ["s17CustomReflectableP", "textDescription"]
+- ["s23CustomStringConvertibleP", "textDescription"]
+- ["s9DecodableP", "textDescription"]
+- ["s9EncodableP", "textDescription"]
+- ["s9EquatableP", "textDescription"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "textDescription"]
+- ["s26ExpressibleByStringLiteralP", "textDescription"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "textDescription"]
+- ["s8HashableP", "textDescription"]
+- ["s25LosslessStringConvertibleP", "textDescription"]
+- ["s10MirrorPathP", "textDescription"]
+- ["s26RangeReplaceableCollectionP", "textDescription"]
+- ["s8SequenceP", "textDescription"]
+- ["SS", "String"]
+- ["SS", "deinit"]
+- ["SS", "textDescription"]
+- ["s14StringProtocolP", "textDescription"]
+- ["s16TextOutputStreamP", "textDescription"]
+- ["s20TextOutputStreamableP", "textDescription"]
+- ["s23_BidirectionalIndexableP", "textDescription"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "textDescription"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "textDescription"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "textDescription"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "textDescription"]
+- ["s33_ExpressibleByStringInterpolationP", "textDescription"]
+- ["s10_IndexableP", "textDescription"]
+- ["s14_IndexableBaseP", "textDescription"]
+- ["s21_ObjectiveCBridgeableP", "textDescription"]
+- ["s26_RangeReplaceableIndexableP", "textDescription"]
+- ["s16_SwiftStringViewP", "textDescription"]
+depends-nominal:
+- "3AST20ASTTextRepresentableP"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8fb2a0d98878c6278b3d568c81ae6e00"

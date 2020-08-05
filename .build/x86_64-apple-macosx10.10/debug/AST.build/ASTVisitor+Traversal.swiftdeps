@@ -1,0 +1,822 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["3AST10ASTVisitorP", ""]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+- ["3AST10ASTVisitorP", "traverse"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ASTVisitor"
+- "AssignmentOperatorExpression"
+- "BinaryOperatorExpression"
+- "Bool"
+- !private "BooleanLiteralType"
+- "BreakStatement"
+- "ClassDeclaration"
+- "ClosureExpression"
+- "CodeBlock"
+- "CompilerControlStatement"
+- !private "Condition"
+- !private "ConditionList"
+- "ConstantDeclaration"
+- "ContinueStatement"
+- "Declaration"
+- "DeferStatement"
+- "DeinitializerDeclaration"
+- "DoStatement"
+- "EnumDeclaration"
+- "ExplicitMemberExpression"
+- "Expression"
+- !private "ExpressionList"
+- "ExtensionDeclaration"
+- "FallthroughStatement"
+- "ForInStatement"
+- "ForcedValueExpression"
+- "FunctionCallExpression"
+- "FunctionDeclaration"
+- "GuardStatement"
+- "IdentifierExpression"
+- "IfStatement"
+- "ImplicitMemberExpression"
+- "ImportDeclaration"
+- "InOutExpression"
+- "InitializerDeclaration"
+- "InitializerExpression"
+- "KeyPathStringExpression"
+- "LabeledStatement"
+- "LiteralExpression"
+- "OperatorDeclaration"
+- "OptionalChainingExpression"
+- "ParenthesizedExpression"
+- "PostfixOperatorExpression"
+- "PostfixSelfExpression"
+- "PrecedenceGroupDeclaration"
+- "PrefixOperatorExpression"
+- "ProtocolDeclaration"
+- "RepeatWhileStatement"
+- "ReturnStatement"
+- "SelectorExpression"
+- "SelfExpression"
+- "SequenceExpression"
+- "Statement"
+- !private "Statements"
+- "StructDeclaration"
+- "SubscriptDeclaration"
+- "SubscriptExpression"
+- "SuperclassExpression"
+- "SwitchStatement"
+- "TernaryConditionalOperatorExpression"
+- "ThrowStatement"
+- "TopLevelDeclaration"
+- "TryOperatorExpression"
+- "TupleExpression"
+- "TypeCastingOperatorExpression"
+- "TypealiasDeclaration"
+- "VariableDeclaration"
+- "WhileStatement"
+- "WildcardExpression"
+depends-member:
+- !private ["3AST7ASTNodeC", "argumentClause"]
+- !private ["3AST7ASTNodeC", "arguments"]
+- !private ["3AST7ASTNodeC", "body"]
+- !private ["3AST7ASTNodeC", "cases"]
+- !private ["3AST7ASTNodeC", "catchClauses"]
+- !private ["3AST7ASTNodeC", "codeBlock"]
+- !private ["3AST7ASTNodeC", "collection"]
+- !private ["3AST7ASTNodeC", "conditionExpression"]
+- !private ["3AST7ASTNodeC", "conditionList"]
+- !private ["3AST7ASTNodeC", "elementList"]
+- !private ["3AST7ASTNodeC", "elements"]
+- !private ["3AST7ASTNodeC", "elseClause"]
+- !private ["3AST7ASTNodeC", "expression"]
+- !private ["3AST7ASTNodeC", "falseExpression"]
+- !private ["3AST7ASTNodeC", "initializerList"]
+- !private ["3AST7ASTNodeC", "item"]
+- !private ["3AST7ASTNodeC", "kind"]
+- !private ["3AST7ASTNodeC", "leftExpression"]
+- !private ["3AST7ASTNodeC", "members"]
+- !private ["3AST7ASTNodeC", "parameterList"]
+- !private ["3AST7ASTNodeC", "postfixExpression"]
+- !private ["3AST7ASTNodeC", "rightExpression"]
+- !private ["3AST7ASTNodeC", "signature"]
+- !private ["3AST7ASTNodeC", "statement"]
+- !private ["3AST7ASTNodeC", "statements"]
+- !private ["3AST7ASTNodeC", "trailingClosure"]
+- !private ["3AST7ASTNodeC", "trueExpression"]
+- !private ["3AST14ASTNodeContextP", "argumentClause"]
+- !private ["3AST14ASTNodeContextP", "arguments"]
+- !private ["3AST14ASTNodeContextP", "body"]
+- !private ["3AST14ASTNodeContextP", "cases"]
+- !private ["3AST14ASTNodeContextP", "catchClauses"]
+- !private ["3AST14ASTNodeContextP", "codeBlock"]
+- !private ["3AST14ASTNodeContextP", "collection"]
+- !private ["3AST14ASTNodeContextP", "conditionExpression"]
+- !private ["3AST14ASTNodeContextP", "conditionList"]
+- !private ["3AST14ASTNodeContextP", "elementList"]
+- !private ["3AST14ASTNodeContextP", "elements"]
+- !private ["3AST14ASTNodeContextP", "elseClause"]
+- !private ["3AST14ASTNodeContextP", "expression"]
+- !private ["3AST14ASTNodeContextP", "falseExpression"]
+- !private ["3AST14ASTNodeContextP", "initializerList"]
+- !private ["3AST14ASTNodeContextP", "item"]
+- !private ["3AST14ASTNodeContextP", "kind"]
+- !private ["3AST14ASTNodeContextP", "leftExpression"]
+- !private ["3AST14ASTNodeContextP", "members"]
+- !private ["3AST14ASTNodeContextP", "parameterList"]
+- !private ["3AST14ASTNodeContextP", "postfixExpression"]
+- !private ["3AST14ASTNodeContextP", "rightExpression"]
+- !private ["3AST14ASTNodeContextP", "signature"]
+- !private ["3AST14ASTNodeContextP", "statement"]
+- !private ["3AST14ASTNodeContextP", "statements"]
+- !private ["3AST14ASTNodeContextP", "trailingClosure"]
+- !private ["3AST14ASTNodeContextP", "trueExpression"]
+- !private ["3AST20ASTTextRepresentableP", "argumentClause"]
+- !private ["3AST20ASTTextRepresentableP", "arguments"]
+- !private ["3AST20ASTTextRepresentableP", "body"]
+- !private ["3AST20ASTTextRepresentableP", "captureList"]
+- ["3AST20ASTTextRepresentableP", "case"]
+- !private ["3AST20ASTTextRepresentableP", "cases"]
+- !private ["3AST20ASTTextRepresentableP", "catchClauses"]
+- ["3AST20ASTTextRepresentableP", "codeBlock"]
+- !private ["3AST20ASTTextRepresentableP", "collection"]
+- ["3AST20ASTTextRepresentableP", "compilerControl"]
+- !private ["3AST20ASTTextRepresentableP", "conditionExpression"]
+- !private ["3AST20ASTTextRepresentableP", "conditionList"]
+- ["3AST20ASTTextRepresentableP", "declaration"]
+- ["3AST20ASTTextRepresentableP", "default"]
+- !private ["3AST20ASTTextRepresentableP", "defaultArgumentClause"]
+- !private ["3AST20ASTTextRepresentableP", "didSetClause"]
+- !private ["3AST20ASTTextRepresentableP", "elementList"]
+- !private ["3AST20ASTTextRepresentableP", "elements"]
+- ["3AST20ASTTextRepresentableP", "else"]
+- !private ["3AST20ASTTextRepresentableP", "elseClause"]
+- ["3AST20ASTTextRepresentableP", "elseif"]
+- ["3AST20ASTTextRepresentableP", "expression"]
+- !private ["3AST20ASTTextRepresentableP", "falseExpression"]
+- !private ["3AST20ASTTextRepresentableP", "getter"]
+- ["3AST20ASTTextRepresentableP", "getterSetterBlock"]
+- ["3AST20ASTTextRepresentableP", "initializer"]
+- !private ["3AST20ASTTextRepresentableP", "initializerExpression"]
+- ["3AST20ASTTextRepresentableP", "initializerList"]
+- !private ["3AST20ASTTextRepresentableP", "item"]
+- !private ["3AST20ASTTextRepresentableP", "key"]
+- !private ["3AST20ASTTextRepresentableP", "kind"]
+- !private ["3AST20ASTTextRepresentableP", "leftExpression"]
+- !private ["3AST20ASTTextRepresentableP", "let"]
+- !private ["3AST20ASTTextRepresentableP", "members"]
+- ["3AST20ASTTextRepresentableP", "memoryReference"]
+- ["3AST20ASTTextRepresentableP", "method"]
+- ["3AST20ASTTextRepresentableP", "namedExpression"]
+- ["3AST20ASTTextRepresentableP", "namedMemoryReference"]
+- !private ["3AST20ASTTextRepresentableP", "parameterList"]
+- !private ["3AST20ASTTextRepresentableP", "postfixExpression"]
+- !private ["3AST20ASTTextRepresentableP", "rightExpression"]
+- !private ["3AST20ASTTextRepresentableP", "setter"]
+- !private ["3AST20ASTTextRepresentableP", "signature"]
+- !private ["3AST20ASTTextRepresentableP", "statement"]
+- !private ["3AST20ASTTextRepresentableP", "statements"]
+- ["3AST20ASTTextRepresentableP", "subscript"]
+- ["3AST20ASTTextRepresentableP", "ternaryConditionalOperator"]
+- !private ["3AST20ASTTextRepresentableP", "trailingClosure"]
+- !private ["3AST20ASTTextRepresentableP", "trueExpression"]
+- !private ["3AST20ASTTextRepresentableP", "value"]
+- !private ["3AST20ASTTextRepresentableP", "var"]
+- !private ["3AST20ASTTextRepresentableP", "whereExpression"]
+- !private ["3AST20ASTTextRepresentableP", "willSetClause"]
+- ["3AST20ASTTextRepresentableP", "willSetDidSetBlock"]
+- !private ["3AST7ASTUnitP", "statements"]
+- ["3AST10ASTVisitorP", "AssignmentOperatorExpression"]
+- ["3AST10ASTVisitorP", "BinaryOperatorExpression"]
+- ["3AST10ASTVisitorP", "Bool"]
+- ["3AST10ASTVisitorP", "BreakStatement"]
+- ["3AST10ASTVisitorP", "ClassDeclaration"]
+- ["3AST10ASTVisitorP", "ClosureExpression"]
+- ["3AST10ASTVisitorP", "CodeBlock"]
+- ["3AST10ASTVisitorP", "CompilerControlStatement"]
+- !private ["3AST10ASTVisitorP", "Condition"]
+- !private ["3AST10ASTVisitorP", "ConditionList"]
+- ["3AST10ASTVisitorP", "ConstantDeclaration"]
+- ["3AST10ASTVisitorP", "ContinueStatement"]
+- ["3AST10ASTVisitorP", "Declaration"]
+- ["3AST10ASTVisitorP", "DeferStatement"]
+- ["3AST10ASTVisitorP", "DeinitializerDeclaration"]
+- ["3AST10ASTVisitorP", "DoStatement"]
+- ["3AST10ASTVisitorP", "EnumDeclaration"]
+- ["3AST10ASTVisitorP", "ExplicitMemberExpression"]
+- ["3AST10ASTVisitorP", "Expression"]
+- !private ["3AST10ASTVisitorP", "ExpressionList"]
+- ["3AST10ASTVisitorP", "ExtensionDeclaration"]
+- ["3AST10ASTVisitorP", "FallthroughStatement"]
+- ["3AST10ASTVisitorP", "ForInStatement"]
+- ["3AST10ASTVisitorP", "ForcedValueExpression"]
+- ["3AST10ASTVisitorP", "FunctionCallExpression"]
+- ["3AST10ASTVisitorP", "FunctionDeclaration"]
+- ["3AST10ASTVisitorP", "GuardStatement"]
+- ["3AST10ASTVisitorP", "IdentifierExpression"]
+- ["3AST10ASTVisitorP", "IfStatement"]
+- ["3AST10ASTVisitorP", "ImplicitMemberExpression"]
+- ["3AST10ASTVisitorP", "ImportDeclaration"]
+- ["3AST10ASTVisitorP", "InOutExpression"]
+- ["3AST10ASTVisitorP", "InitializerDeclaration"]
+- ["3AST10ASTVisitorP", "InitializerExpression"]
+- ["3AST10ASTVisitorP", "KeyPathStringExpression"]
+- ["3AST10ASTVisitorP", "LabeledStatement"]
+- ["3AST10ASTVisitorP", "LiteralExpression"]
+- ["3AST10ASTVisitorP", "OperatorDeclaration"]
+- ["3AST10ASTVisitorP", "OptionalChainingExpression"]
+- ["3AST10ASTVisitorP", "ParenthesizedExpression"]
+- ["3AST10ASTVisitorP", "PostfixOperatorExpression"]
+- ["3AST10ASTVisitorP", "PostfixSelfExpression"]
+- ["3AST10ASTVisitorP", "PrecedenceGroupDeclaration"]
+- ["3AST10ASTVisitorP", "PrefixOperatorExpression"]
+- ["3AST10ASTVisitorP", "ProtocolDeclaration"]
+- ["3AST10ASTVisitorP", "RepeatWhileStatement"]
+- ["3AST10ASTVisitorP", "ReturnStatement"]
+- ["3AST10ASTVisitorP", "SelectorExpression"]
+- ["3AST10ASTVisitorP", "SelfExpression"]
+- ["3AST10ASTVisitorP", "SequenceExpression"]
+- ["3AST10ASTVisitorP", "Statement"]
+- !private ["3AST10ASTVisitorP", "Statements"]
+- ["3AST10ASTVisitorP", "StructDeclaration"]
+- ["3AST10ASTVisitorP", "SubscriptDeclaration"]
+- ["3AST10ASTVisitorP", "SubscriptExpression"]
+- ["3AST10ASTVisitorP", "SuperclassExpression"]
+- ["3AST10ASTVisitorP", "SwitchStatement"]
+- ["3AST10ASTVisitorP", "TernaryConditionalOperatorExpression"]
+- ["3AST10ASTVisitorP", "ThrowStatement"]
+- ["3AST10ASTVisitorP", "TopLevelDeclaration"]
+- ["3AST10ASTVisitorP", "TryOperatorExpression"]
+- ["3AST10ASTVisitorP", "TupleExpression"]
+- ["3AST10ASTVisitorP", "TypeCastingOperatorExpression"]
+- ["3AST10ASTVisitorP", "TypealiasDeclaration"]
+- ["3AST10ASTVisitorP", "VariableDeclaration"]
+- ["3AST10ASTVisitorP", "WhileStatement"]
+- ["3AST10ASTVisitorP", "WildcardExpression"]
+- ["3AST10ASTVisitorP", "traverse"]
+- !private ["3AST10ASTVisitorP", "visit"]
+- ["3AST22FunctionCallExpressionC8ArgumentO", "expression"]
+- ["3AST22FunctionCallExpressionC8ArgumentO", "memoryReference"]
+- ["3AST22FunctionCallExpressionC8ArgumentO", "namedExpression"]
+- ["3AST22FunctionCallExpressionC8ArgumentO", "namedMemoryReference"]
+- !private ["Sa", "map"]
+- !private ["3AST28AssignmentOperatorExpressionC", "leftExpression"]
+- !private ["3AST28AssignmentOperatorExpressionC", "rightExpression"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["3AST16BinaryExpressionP", "conditionExpression"]
+- !private ["3AST16BinaryExpressionP", "elements"]
+- !private ["3AST16BinaryExpressionP", "falseExpression"]
+- !private ["3AST16BinaryExpressionP", "kind"]
+- !private ["3AST16BinaryExpressionP", "leftExpression"]
+- !private ["3AST16BinaryExpressionP", "rightExpression"]
+- !private ["3AST16BinaryExpressionP", "trueExpression"]
+- !private ["3AST24BinaryOperatorExpressionC", "leftExpression"]
+- !private ["3AST24BinaryOperatorExpressionC", "rightExpression"]
+- ["3AST19VariableDeclarationC4BodyO", "codeBlock"]
+- ["3AST19VariableDeclarationC4BodyO", "getterSetterBlock"]
+- ["3AST19VariableDeclarationC4BodyO", "initializerList"]
+- ["3AST19VariableDeclarationC4BodyO", "willSetDidSetBlock"]
+- ["3AST20SubscriptDeclarationC4BodyO", "codeBlock"]
+- ["3AST20SubscriptDeclarationC4BodyO", "getterSetterBlock"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "map"]
+- !private ["3AST17ClosureExpressionC9SignatureV11CaptureItemV", "expression"]
+- ["3AST15SwitchStatementC4CaseO", "case"]
+- ["3AST15SwitchStatementC4CaseO", "default"]
+- !private ["3AST11DoStatementC11CatchClauseV", "codeBlock"]
+- !private ["3AST11DoStatementC11CatchClauseV", "whereExpression"]
+- !private ["3AST16ClassDeclarationC", "members"]
+- !private ["3AST17ClosureExpressionC", "signature"]
+- !private ["3AST17ClosureExpressionC", "statements"]
+- !private ["3AST9CodeBlockC", "statements"]
+- !private ["s10CollectionP", "map"]
+- !private ["3AST9ConditionO", "case"]
+- !private ["3AST9ConditionO", "expression"]
+- !private ["3AST9ConditionO", "let"]
+- !private ["3AST9ConditionO", "var"]
+- !private ["3AST19ConstantDeclarationC", "initializerList"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "argumentClause"]
+- !private ["s23CustomStringConvertibleP", "arguments"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "captureList"]
+- ["s23CustomStringConvertibleP", "case"]
+- !private ["s23CustomStringConvertibleP", "cases"]
+- !private ["s23CustomStringConvertibleP", "catchClauses"]
+- ["s23CustomStringConvertibleP", "codeBlock"]
+- !private ["s23CustomStringConvertibleP", "collection"]
+- ["s23CustomStringConvertibleP", "compilerControl"]
+- !private ["s23CustomStringConvertibleP", "conditionExpression"]
+- !private ["s23CustomStringConvertibleP", "conditionList"]
+- ["s23CustomStringConvertibleP", "declaration"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultArgumentClause"]
+- !private ["s23CustomStringConvertibleP", "didSetClause"]
+- !private ["s23CustomStringConvertibleP", "elementList"]
+- !private ["s23CustomStringConvertibleP", "elements"]
+- ["s23CustomStringConvertibleP", "else"]
+- !private ["s23CustomStringConvertibleP", "elseClause"]
+- ["s23CustomStringConvertibleP", "elseif"]
+- ["s23CustomStringConvertibleP", "expression"]
+- !private ["s23CustomStringConvertibleP", "falseExpression"]
+- !private ["s23CustomStringConvertibleP", "getter"]
+- ["s23CustomStringConvertibleP", "getterSetterBlock"]
+- ["s23CustomStringConvertibleP", "initializer"]
+- !private ["s23CustomStringConvertibleP", "initializerExpression"]
+- ["s23CustomStringConvertibleP", "initializerList"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "leftExpression"]
+- !private ["s23CustomStringConvertibleP", "let"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "members"]
+- ["s23CustomStringConvertibleP", "memoryReference"]
+- ["s23CustomStringConvertibleP", "method"]
+- ["s23CustomStringConvertibleP", "namedExpression"]
+- ["s23CustomStringConvertibleP", "namedMemoryReference"]
+- !private ["s23CustomStringConvertibleP", "parameterList"]
+- !private ["s23CustomStringConvertibleP", "postfixExpression"]
+- !private ["s23CustomStringConvertibleP", "rightExpression"]
+- !private ["s23CustomStringConvertibleP", "setter"]
+- !private ["s23CustomStringConvertibleP", "signature"]
+- !private ["s23CustomStringConvertibleP", "statement"]
+- !private ["s23CustomStringConvertibleP", "statements"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "ternaryConditionalOperator"]
+- !private ["s23CustomStringConvertibleP", "trailingClosure"]
+- !private ["s23CustomStringConvertibleP", "trueExpression"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "var"]
+- !private ["s23CustomStringConvertibleP", "whereExpression"]
+- !private ["s23CustomStringConvertibleP", "willSetClause"]
+- ["s23CustomStringConvertibleP", "willSetDidSetBlock"]
+- !private ["3AST11DeclarationP", "body"]
+- !private ["3AST11DeclarationP", "initializerList"]
+- !private ["3AST11DeclarationP", "members"]
+- !private ["3AST11DeclarationP", "parameterList"]
+- !private ["3AST11DeclarationP", "signature"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "map"]
+- !private ["3AST14DeferStatementC", "codeBlock"]
+- !private ["3AST24DeinitializerDeclarationC", "body"]
+- !private ["3AST15DictionaryEntryC", "key"]
+- !private ["3AST15DictionaryEntryC", "value"]
+- !private ["3AST010WillSetDidC5BlockV0dC6ClauseV", "codeBlock"]
+- !private ["3AST11DoStatementC", "catchClauses"]
+- !private ["3AST11DoStatementC", "codeBlock"]
+- !private ["3AST15TupleExpressionC7ElementV", "expression"]
+- ["3AST18SequenceExpressionC7ElementO", "expression"]
+- ["3AST18SequenceExpressionC7ElementO", "ternaryConditionalOperator"]
+- ["3AST11IfStatementC10ElseClauseO", "else"]
+- ["3AST11IfStatementC10ElseClauseO", "elseif"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "map"]
+- !private ["3AST15EnumDeclarationC", "members"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["3AST24ExplicitMemberExpressionC", "kind"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["3AST10ExpressionP", "argumentClause"]
+- !private ["3AST10ExpressionP", "arguments"]
+- !private ["3AST10ExpressionP", "conditionExpression"]
+- !private ["3AST10ExpressionP", "elementList"]
+- !private ["3AST10ExpressionP", "elements"]
+- !private ["3AST10ExpressionP", "expression"]
+- !private ["3AST10ExpressionP", "falseExpression"]
+- !private ["3AST10ExpressionP", "kind"]
+- !private ["3AST10ExpressionP", "leftExpression"]
+- !private ["3AST10ExpressionP", "postfixExpression"]
+- !private ["3AST10ExpressionP", "rightExpression"]
+- !private ["3AST10ExpressionP", "signature"]
+- !private ["3AST10ExpressionP", "statements"]
+- !private ["3AST10ExpressionP", "trailingClosure"]
+- !private ["3AST10ExpressionP", "trueExpression"]
+- !private ["3AST20ExtensionDeclarationC", "members"]
+- !private ["3AST14ForInStatementC", "codeBlock"]
+- !private ["3AST14ForInStatementC", "collection"]
+- !private ["3AST14ForInStatementC", "item"]
+- !private ["3AST21ForcedValueExpressionC", "postfixExpression"]
+- !private ["3AST22FunctionCallExpressionC", "argumentClause"]
+- !private ["3AST22FunctionCallExpressionC", "postfixExpression"]
+- !private ["3AST22FunctionCallExpressionC", "trailingClosure"]
+- !private ["3AST19FunctionDeclarationC", "body"]
+- !private ["3AST19FunctionDeclarationC", "signature"]
+- !private ["3AST17FunctionSignatureV", "parameterList"]
+- !private ["3AST17GetterSetterBlockV0B6ClauseV", "codeBlock"]
+- !private ["3AST17GetterSetterBlockV", "getter"]
+- !private ["3AST17GetterSetterBlockV", "setter"]
+- !private ["3AST14GuardStatementC", "codeBlock"]
+- !private ["3AST14GuardStatementC", "conditionList"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["3AST11IfStatementC", "codeBlock"]
+- !private ["3AST11IfStatementC", "conditionList"]
+- !private ["3AST11IfStatementC", "elseClause"]
+- !private ["3AST22InitializerDeclarationC", "body"]
+- !private ["3AST22InitializerDeclarationC", "parameterList"]
+- !private ["3AST21InitializerExpressionC", "postfixExpression"]
+- !private ["3AST19ProtocolDeclarationC17InitializerMemberV", "parameterList"]
+- !private ["3AST14ForInStatementC4ItemV", "whereClause"]
+- !private ["3AST15SwitchStatementC4CaseO4ItemV", "whereExpression"]
+- !private ["3AST23KeyPathStringExpressionC", "expression"]
+- ["3AST14SelfExpressionC4KindO", "subscript"]
+- ["3AST17LiteralExpressionC4KindO", "array"]
+- ["3AST17LiteralExpressionC4KindO", "dictionary"]
+- ["3AST17LiteralExpressionC4KindO", "interpolatedString"]
+- ["3AST18SelectorExpressionC4KindO", "getter"]
+- ["3AST18SelectorExpressionC4KindO", "selector"]
+- ["3AST18SelectorExpressionC4KindO", "setter"]
+- ["3AST20SuperclassExpressionC4KindO", "subscript"]
+- ["3AST21TryOperatorExpressionC4KindO", "forced"]
+- ["3AST21TryOperatorExpressionC4KindO", "optional"]
+- ["3AST21TryOperatorExpressionC4KindO", "try"]
+- ["3AST24ExplicitMemberExpressionC4KindO", "argument"]
+- ["3AST24ExplicitMemberExpressionC4KindO", "generic"]
+- ["3AST24ExplicitMemberExpressionC4KindO", "namedType"]
+- ["3AST24ExplicitMemberExpressionC4KindO", "tuple"]
+- ["3AST29TypeCastingOperatorExpressionC4KindO", "cast"]
+- ["3AST29TypeCastingOperatorExpressionC4KindO", "check"]
+- ["3AST29TypeCastingOperatorExpressionC4KindO", "conditionalCast"]
+- ["3AST29TypeCastingOperatorExpressionC4KindO", "forcedCast"]
+- !private ["3AST16LabeledStatementC", "statement"]
+- !private ["3AST17LiteralExpressionC", "kind"]
+- !private ["3AST13LocatableNodeC", "argumentClause"]
+- !private ["3AST13LocatableNodeC", "arguments"]
+- !private ["3AST13LocatableNodeC", "body"]
+- !private ["3AST13LocatableNodeC", "cases"]
+- !private ["3AST13LocatableNodeC", "catchClauses"]
+- !private ["3AST13LocatableNodeC", "codeBlock"]
+- !private ["3AST13LocatableNodeC", "collection"]
+- !private ["3AST13LocatableNodeC", "conditionExpression"]
+- !private ["3AST13LocatableNodeC", "conditionList"]
+- !private ["3AST13LocatableNodeC", "elementList"]
+- !private ["3AST13LocatableNodeC", "elements"]
+- !private ["3AST13LocatableNodeC", "elseClause"]
+- !private ["3AST13LocatableNodeC", "expression"]
+- !private ["3AST13LocatableNodeC", "falseExpression"]
+- !private ["3AST13LocatableNodeC", "initializerList"]
+- !private ["3AST13LocatableNodeC", "item"]
+- !private ["3AST13LocatableNodeC", "kind"]
+- !private ["3AST13LocatableNodeC", "leftExpression"]
+- !private ["3AST13LocatableNodeC", "members"]
+- !private ["3AST13LocatableNodeC", "parameterList"]
+- !private ["3AST13LocatableNodeC", "postfixExpression"]
+- !private ["3AST13LocatableNodeC", "rightExpression"]
+- !private ["3AST13LocatableNodeC", "signature"]
+- !private ["3AST13LocatableNodeC", "statement"]
+- !private ["3AST13LocatableNodeC", "statements"]
+- !private ["3AST13LocatableNodeC", "trailingClosure"]
+- !private ["3AST13LocatableNodeC", "trueExpression"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["3AST15EnumDeclarationC6MemberO", "compilerControl"]
+- ["3AST15EnumDeclarationC6MemberO", "declaration"]
+- ["3AST16ClassDeclarationC6MemberO", "compilerControl"]
+- ["3AST16ClassDeclarationC6MemberO", "declaration"]
+- ["3AST17StructDeclarationC6MemberO", "compilerControl"]
+- ["3AST17StructDeclarationC6MemberO", "declaration"]
+- ["3AST19ProtocolDeclarationC6MemberO", "compilerControl"]
+- ["3AST19ProtocolDeclarationC6MemberO", "initializer"]
+- ["3AST19ProtocolDeclarationC6MemberO", "method"]
+- ["3AST19ProtocolDeclarationC6MemberO", "subscript"]
+- ["3AST20ExtensionDeclarationC6MemberO", "compilerControl"]
+- ["3AST20ExtensionDeclarationC6MemberO", "declaration"]
+- !private ["3AST19ProtocolDeclarationC12MethodMemberV", "signature"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["3AST26OptionalChainingExpressionC", "postfixExpression"]
+- !private ["3AST17FunctionSignatureV9ParameterV", "defaultArgumentClause"]
+- !private ["3AST23ParenthesizedExpressionC", "expression"]
+- !private ["3AST18PatternInitializerV", "initializerExpression"]
+- !private ["3AST17PostfixExpressionP", "argumentClause"]
+- !private ["3AST17PostfixExpressionP", "arguments"]
+- !private ["3AST17PostfixExpressionP", "elementList"]
+- !private ["3AST17PostfixExpressionP", "expression"]
+- !private ["3AST17PostfixExpressionP", "kind"]
+- !private ["3AST17PostfixExpressionP", "postfixExpression"]
+- !private ["3AST17PostfixExpressionP", "signature"]
+- !private ["3AST17PostfixExpressionP", "statements"]
+- !private ["3AST17PostfixExpressionP", "trailingClosure"]
+- !private ["3AST25PostfixOperatorExpressionC", "postfixExpression"]
+- !private ["3AST21PostfixSelfExpressionC", "postfixExpression"]
+- !private ["3AST16PrefixExpressionP", "postfixExpression"]
+- !private ["3AST24PrefixOperatorExpressionC", "postfixExpression"]
+- !private ["3AST17PrimaryExpressionP", "elementList"]
+- !private ["3AST17PrimaryExpressionP", "expression"]
+- !private ["3AST17PrimaryExpressionP", "kind"]
+- !private ["3AST17PrimaryExpressionP", "signature"]
+- !private ["3AST17PrimaryExpressionP", "statements"]
+- !private ["3AST19ProtocolDeclarationC", "members"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["3AST20RepeatWhileStatementC", "codeBlock"]
+- !private ["3AST20RepeatWhileStatementC", "conditionExpression"]
+- !private ["3AST15ReturnStatementC", "expression"]
+- !private ["3AST18SelectorExpressionC", "kind"]
+- !private ["3AST14SelfExpressionC", "kind"]
+- !private ["s8SequenceP", "map"]
+- !private ["3AST18SequenceExpressionC", "elements"]
+- !private ["3AST17GetterSetterBlockV0C6ClauseV", "codeBlock"]
+- !private ["3AST17ClosureExpressionC9SignatureV", "captureList"]
+- !private ["6Source0A9LocatableP", "argumentClause"]
+- !private ["6Source0A9LocatableP", "arguments"]
+- !private ["6Source0A9LocatableP", "body"]
+- !private ["6Source0A9LocatableP", "cases"]
+- !private ["6Source0A9LocatableP", "catchClauses"]
+- !private ["6Source0A9LocatableP", "codeBlock"]
+- !private ["6Source0A9LocatableP", "collection"]
+- !private ["6Source0A9LocatableP", "conditionExpression"]
+- !private ["6Source0A9LocatableP", "conditionList"]
+- !private ["6Source0A9LocatableP", "elementList"]
+- !private ["6Source0A9LocatableP", "elements"]
+- !private ["6Source0A9LocatableP", "elseClause"]
+- !private ["6Source0A9LocatableP", "expression"]
+- !private ["6Source0A9LocatableP", "falseExpression"]
+- !private ["6Source0A9LocatableP", "initializerExpression"]
+- !private ["6Source0A9LocatableP", "initializerList"]
+- !private ["6Source0A9LocatableP", "item"]
+- !private ["6Source0A9LocatableP", "kind"]
+- !private ["6Source0A9LocatableP", "leftExpression"]
+- !private ["6Source0A9LocatableP", "members"]
+- !private ["6Source0A9LocatableP", "parameterList"]
+- !private ["6Source0A9LocatableP", "postfixExpression"]
+- !private ["6Source0A9LocatableP", "rightExpression"]
+- !private ["6Source0A9LocatableP", "signature"]
+- !private ["6Source0A9LocatableP", "statement"]
+- !private ["6Source0A9LocatableP", "statements"]
+- !private ["6Source0A9LocatableP", "trailingClosure"]
+- !private ["6Source0A9LocatableP", "trueExpression"]
+- !private ["3AST9StatementP", "argumentClause"]
+- !private ["3AST9StatementP", "arguments"]
+- !private ["3AST9StatementP", "body"]
+- !private ["3AST9StatementP", "cases"]
+- !private ["3AST9StatementP", "catchClauses"]
+- !private ["3AST9StatementP", "codeBlock"]
+- !private ["3AST9StatementP", "collection"]
+- !private ["3AST9StatementP", "conditionExpression"]
+- !private ["3AST9StatementP", "conditionList"]
+- !private ["3AST9StatementP", "elementList"]
+- !private ["3AST9StatementP", "elements"]
+- !private ["3AST9StatementP", "elseClause"]
+- !private ["3AST9StatementP", "expression"]
+- !private ["3AST9StatementP", "falseExpression"]
+- !private ["3AST9StatementP", "initializerList"]
+- !private ["3AST9StatementP", "item"]
+- !private ["3AST9StatementP", "kind"]
+- !private ["3AST9StatementP", "leftExpression"]
+- !private ["3AST9StatementP", "members"]
+- !private ["3AST9StatementP", "parameterList"]
+- !private ["3AST9StatementP", "postfixExpression"]
+- !private ["3AST9StatementP", "rightExpression"]
+- !private ["3AST9StatementP", "signature"]
+- !private ["3AST9StatementP", "statement"]
+- !private ["3AST9StatementP", "statements"]
+- !private ["3AST9StatementP", "trailingClosure"]
+- !private ["3AST9StatementP", "trueExpression"]
+- !private ["3AST17StructDeclarationC", "members"]
+- !private ["3AST17SubscriptArgumentV", "expression"]
+- !private ["3AST20SubscriptDeclarationC", "body"]
+- !private ["3AST20SubscriptDeclarationC", "parameterList"]
+- !private ["3AST19SubscriptExpressionC", "arguments"]
+- !private ["3AST19SubscriptExpressionC", "postfixExpression"]
+- !private ["3AST19ProtocolDeclarationC15SubscriptMemberV", "parameterList"]
+- !private ["3AST20SuperclassExpressionC", "kind"]
+- !private ["3AST15SwitchStatementC", "cases"]
+- !private ["3AST36TernaryConditionalOperatorExpressionC", "conditionExpression"]
+- !private ["3AST36TernaryConditionalOperatorExpressionC", "falseExpression"]
+- !private ["3AST36TernaryConditionalOperatorExpressionC", "trueExpression"]
+- !private ["3AST14ThrowStatementC", "expression"]
+- !private ["3AST19TopLevelDeclarationC", "statements"]
+- !private ["3AST21TryOperatorExpressionC", "kind"]
+- !private ["3AST15TupleExpressionC", "elementList"]
+- !private ["3AST29TypeCastingOperatorExpressionC", "kind"]
+- !private ["3AST19VariableDeclarationC", "body"]
+- !private ["3AST14WhileStatementC", "codeBlock"]
+- !private ["3AST14WhileStatementC", "conditionList"]
+- !private ["3AST010WillSetDidC5BlockV0bC6ClauseV", "codeBlock"]
+- !private ["3AST010WillSetDidC5BlockV", "didSetClause"]
+- !private ["3AST010WillSetDidC5BlockV", "willSetClause"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+depends-nominal:
+- !private "3AST7ASTNodeC"
+- !private "3AST14ASTNodeContextP"
+- "3AST20ASTTextRepresentableP"
+- !private "3AST7ASTUnitP"
+- "3AST10ASTVisitorP"
+- "3AST22FunctionCallExpressionC8ArgumentO"
+- !private "Sa"
+- !private "3AST28AssignmentOperatorExpressionC"
+- !private "s23BidirectionalCollectionP"
+- !private "3AST16BinaryExpressionP"
+- !private "3AST24BinaryOperatorExpressionC"
+- "3AST19VariableDeclarationC4BodyO"
+- "3AST20SubscriptDeclarationC4BodyO"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "3AST17ClosureExpressionC9SignatureV11CaptureItemV"
+- "3AST15SwitchStatementC4CaseO"
+- !private "3AST11DoStatementC11CatchClauseV"
+- !private "3AST16ClassDeclarationC"
+- !private "3AST17ClosureExpressionC"
+- !private "3AST9CodeBlockC"
+- !private "s10CollectionP"
+- !private "3AST9ConditionO"
+- !private "3AST19ConstantDeclarationC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "3AST11DeclarationP"
+- !private "s9DecodableP"
+- !private "3AST14DeferStatementC"
+- !private "3AST24DeinitializerDeclarationC"
+- !private "3AST15DictionaryEntryC"
+- !private "3AST010WillSetDidC5BlockV0dC6ClauseV"
+- !private "3AST11DoStatementC"
+- !private "3AST15TupleExpressionC7ElementV"
+- "3AST18SequenceExpressionC7ElementO"
+- "3AST11IfStatementC10ElseClauseO"
+- !private "s9EncodableP"
+- !private "3AST15EnumDeclarationC"
+- !private "s9EquatableP"
+- !private "3AST24ExplicitMemberExpressionC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "3AST10ExpressionP"
+- !private "3AST20ExtensionDeclarationC"
+- !private "3AST14ForInStatementC"
+- !private "3AST21ForcedValueExpressionC"
+- !private "3AST22FunctionCallExpressionC"
+- !private "3AST19FunctionDeclarationC"
+- !private "3AST17FunctionSignatureV"
+- !private "3AST17GetterSetterBlockV0B6ClauseV"
+- !private "3AST17GetterSetterBlockV"
+- !private "3AST14GuardStatementC"
+- !private "s8HashableP"
+- !private "3AST11IfStatementC"
+- !private "3AST22InitializerDeclarationC"
+- !private "3AST21InitializerExpressionC"
+- !private "3AST19ProtocolDeclarationC17InitializerMemberV"
+- !private "3AST14ForInStatementC4ItemV"
+- !private "3AST15SwitchStatementC4CaseO4ItemV"
+- !private "3AST23KeyPathStringExpressionC"
+- "3AST14SelfExpressionC4KindO"
+- "3AST17LiteralExpressionC4KindO"
+- "3AST18SelectorExpressionC4KindO"
+- "3AST20SuperclassExpressionC4KindO"
+- "3AST21TryOperatorExpressionC4KindO"
+- "3AST24ExplicitMemberExpressionC4KindO"
+- "3AST29TypeCastingOperatorExpressionC4KindO"
+- !private "3AST16LabeledStatementC"
+- !private "3AST17LiteralExpressionC"
+- !private "3AST13LocatableNodeC"
+- !private "s25LosslessStringConvertibleP"
+- "3AST15EnumDeclarationC6MemberO"
+- "3AST16ClassDeclarationC6MemberO"
+- "3AST17StructDeclarationC6MemberO"
+- "3AST19ProtocolDeclarationC6MemberO"
+- "3AST20ExtensionDeclarationC6MemberO"
+- !private "3AST19ProtocolDeclarationC12MethodMemberV"
+- !private "s17MutableCollectionP"
+- !private "3AST26OptionalChainingExpressionC"
+- !private "3AST17FunctionSignatureV9ParameterV"
+- !private "3AST23ParenthesizedExpressionC"
+- !private "3AST18PatternInitializerV"
+- !private "3AST17PostfixExpressionP"
+- !private "3AST25PostfixOperatorExpressionC"
+- !private "3AST21PostfixSelfExpressionC"
+- !private "3AST16PrefixExpressionP"
+- !private "3AST24PrefixOperatorExpressionC"
+- !private "3AST17PrimaryExpressionP"
+- !private "3AST19ProtocolDeclarationC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "3AST20RepeatWhileStatementC"
+- !private "3AST15ReturnStatementC"
+- !private "3AST18SelectorExpressionC"
+- !private "3AST14SelfExpressionC"
+- !private "s8SequenceP"
+- !private "3AST18SequenceExpressionC"
+- !private "3AST17GetterSetterBlockV0C6ClauseV"
+- !private "3AST17ClosureExpressionC9SignatureV"
+- !private "6Source0A9LocatableP"
+- !private "3AST9StatementP"
+- !private "3AST17StructDeclarationC"
+- !private "3AST17SubscriptArgumentV"
+- !private "3AST20SubscriptDeclarationC"
+- !private "3AST19SubscriptExpressionC"
+- !private "3AST19ProtocolDeclarationC15SubscriptMemberV"
+- !private "3AST20SuperclassExpressionC"
+- !private "3AST15SwitchStatementC"
+- !private "3AST36TernaryConditionalOperatorExpressionC"
+- !private "3AST14ThrowStatementC"
+- !private "3AST19TopLevelDeclarationC"
+- !private "3AST21TryOperatorExpressionC"
+- !private "3AST15TupleExpressionC"
+- !private "3AST29TypeCastingOperatorExpressionC"
+- !private "3AST19VariableDeclarationC"
+- !private "3AST14WhileStatementC"
+- !private "3AST010WillSetDidC5BlockV0bC6ClauseV"
+- !private "3AST010WillSetDidC5BlockV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "477462a68938fc7c838f319d881e1f31"

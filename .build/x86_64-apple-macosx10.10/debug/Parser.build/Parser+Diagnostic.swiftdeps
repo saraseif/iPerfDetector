@@ -1,0 +1,410 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParserErrorKind"
+provides-nominal:
+- "6Parser0A9ErrorKindO"
+provides-member:
+- ["6ParserAAC", ""]
+- ["6Parser0A9ErrorKindO", ""]
+- ["6ParserAAC", "_raiseFatal"]
+- ["6ParserAAC", "_raiseError"]
+- ["6ParserAAC", "_raiseWarning"]
+- ["6ParserAAC", "_diagnosticPool"]
+provides-dynamic-lookup:
+depends-top-level:
+- "DiagnosticKind"
+- "DiagnosticPool"
+- "Error"
+- "Parser"
+- "ParserErrorKind"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["3AST20ASTTextRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- ["10Diagnostic0A4KindP", "attributeAvailabilityPlatform"]
+- ["10Diagnostic0A4KindP", "badDeclaration"]
+- ["10Diagnostic0A4KindP", "badProtocolMember"]
+- ["10Diagnostic0A4KindP", "caseStmtWithoutBody"]
+- ["10Diagnostic0A4KindP", "diagnosticMessage"]
+- ["10Diagnostic0A4KindP", "dummy"]
+- ["10Diagnostic0A4KindP", "duplicatedFunctionModifiers"]
+- ["10Diagnostic0A4KindP", "enumExpectedAfterIndirect"]
+- ["10Diagnostic0A4KindP", "expectedAccesorName"]
+- ["10Diagnostic0A4KindP", "expectedAccesorNameCloseParenthesis"]
+- ["10Diagnostic0A4KindP", "expectedArgumentLabel"]
+- ["10Diagnostic0A4KindP", "expectedArrowSubscript"]
+- ["10Diagnostic0A4KindP", "expectedAvailabilityVersionNumber"]
+- ["10Diagnostic0A4KindP", "expectedAvailableKeyword"]
+- ["10Diagnostic0A4KindP", "expectedBooleanAfterPrecedenceGroupAssignment"]
+- ["10Diagnostic0A4KindP", "expectedCaseColon"]
+- ["10Diagnostic0A4KindP", "expectedCaseName"]
+- ["10Diagnostic0A4KindP", "expectedCaseNamePattern"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenAvailabilityCondition"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenFuncCall"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenKeyPathStringExpr"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenParenthesizedType"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenSelectorExpr"]
+- ["10Diagnostic0A4KindP", "expectedCloseParenTuple"]
+- ["10Diagnostic0A4KindP", "expectedCloseSquareArrayLiteral"]
+- ["10Diagnostic0A4KindP", "expectedCloseSquareArrayType"]
+- ["10Diagnostic0A4KindP", "expectedCloseSquareDictionaryLiteral"]
+- ["10Diagnostic0A4KindP", "expectedCloseSquareDictionaryType"]
+- ["10Diagnostic0A4KindP", "expectedCloseSquareExprList"]
+- ["10Diagnostic0A4KindP", "expectedClosureParameterName"]
+- ["10Diagnostic0A4KindP", "expectedColonAfterArgumentLabel"]
+- ["10Diagnostic0A4KindP", "expectedColonAfterPropertyKeywordSelectorExpr"]
+- ["10Diagnostic0A4KindP", "expectedColonAfterTrueExpr"]
+- ["10Diagnostic0A4KindP", "expectedColonDictionaryLiteral"]
+- ["10Diagnostic0A4KindP", "expectedDefaultColon"]
+- ["10Diagnostic0A4KindP", "expectedDotOrSubscriptAfterSuper"]
+- ["10Diagnostic0A4KindP", "expectedElseAfterGuard"]
+- ["10Diagnostic0A4KindP", "expectedEnumDeclarationCaseMember"]
+- ["10Diagnostic0A4KindP", "expectedEqualInConditionalBinding"]
+- ["10Diagnostic0A4KindP", "expectedEqualInTypealias"]
+- ["10Diagnostic0A4KindP", "expectedExpr"]
+- ["10Diagnostic0A4KindP", "expectedForEachIn"]
+- ["10Diagnostic0A4KindP", "expectedFunctionTypeArguments"]
+- ["10Diagnostic0A4KindP", "expectedGenericRequirementName"]
+- ["10Diagnostic0A4KindP", "expectedGenericTypeRestriction"]
+- ["10Diagnostic0A4KindP", "expectedGenericsParameterName"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierAfterDot"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierAfterSelfDotExpr"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierAfterSuperDotExpr"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierForInOutExpr"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierTuplePattern"]
+- ["10Diagnostic0A4KindP", "expectedIdentifierTypeForProtocolComposition"]
+- ["10Diagnostic0A4KindP", "expectedKeyPathComponent"]
+- ["10Diagnostic0A4KindP", "expectedKeyPathComponentIdentifier"]
+- ["10Diagnostic0A4KindP", "expectedLeftChevronProtocolComposition"]
+- ["10Diagnostic0A4KindP", "expectedMemberNameExplicitMemberExpr"]
+- ["10Diagnostic0A4KindP", "expectedMinorVersionAvailability"]
+- ["10Diagnostic0A4KindP", "expectedObjectLiteralIdentifier"]
+- ["10Diagnostic0A4KindP", "expectedOpenParenAvailabilityCondition"]
+- ["10Diagnostic0A4KindP", "expectedOpenParenKeyPathStringExpr"]
+- ["10Diagnostic0A4KindP", "expectedOpenParenSelectorExpr"]
+- ["10Diagnostic0A4KindP", "expectedOpenParenSourceLocation"]
+- ["10Diagnostic0A4KindP", "expectedOperatorNameAfterInfixOperator"]
+- ["10Diagnostic0A4KindP", "expectedParameterCloseParenthesis"]
+- ["10Diagnostic0A4KindP", "expectedParameterNameFuncCall"]
+- ["10Diagnostic0A4KindP", "expectedParameterOpenParenthesis"]
+- ["10Diagnostic0A4KindP", "expectedParameterType"]
+- ["10Diagnostic0A4KindP", "expectedPattern"]
+- ["10Diagnostic0A4KindP", "expectedPrecedenceGroupAssociativity"]
+- ["10Diagnostic0A4KindP", "expectedPrecedenceGroupAttribute"]
+- ["10Diagnostic0A4KindP", "expectedRequirementDelimiter"]
+- ["10Diagnostic0A4KindP", "expectedRightChevron"]
+- ["10Diagnostic0A4KindP", "expectedRightChevronProtocolComposition"]
+- ["10Diagnostic0A4KindP", "expectedStringInterpolation"]
+- ["10Diagnostic0A4KindP", "expectedTupleArgumentLabel"]
+- ["10Diagnostic0A4KindP", "expectedTupleIndexExplicitMemberExpr"]
+- ["10Diagnostic0A4KindP", "expectedTuplePatternCloseParenthesis"]
+- ["10Diagnostic0A4KindP", "expectedType"]
+- ["10Diagnostic0A4KindP", "expectedTypeInTuple"]
+- ["10Diagnostic0A4KindP", "expectedTypeRestriction"]
+- ["10Diagnostic0A4KindP", "expectedUnownedSafeOrUnsafe"]
+- ["10Diagnostic0A4KindP", "expectedValidCompilerCtrlKeyword"]
+- ["10Diagnostic0A4KindP", "expectedValidOperator"]
+- ["10Diagnostic0A4KindP", "expectedWhileAfterRepeatBody"]
+- ["10Diagnostic0A4KindP", "expectedWillSetOrDidSet"]
+- ["10Diagnostic0A4KindP", "extraTokenStringInterpolation"]
+- ["10Diagnostic0A4KindP", "indirectWithRawValueStyle"]
+- ["10Diagnostic0A4KindP", "insufficientIndentationOfLineInMultilineStringLiteral"]
+- ["10Diagnostic0A4KindP", "invalidLabelOnStatement"]
+- ["10Diagnostic0A4KindP", "lateClassRequirement"]
+- ["10Diagnostic0A4KindP", "leftBraceExpected"]
+- ["10Diagnostic0A4KindP", "missingAttributeName"]
+- ["10Diagnostic0A4KindP", "missingClassName"]
+- ["10Diagnostic0A4KindP", "missingColonAfterAttributeNameInPrecedenceGroup"]
+- ["10Diagnostic0A4KindP", "missingEnumName"]
+- ["10Diagnostic0A4KindP", "missingExtensionName"]
+- ["10Diagnostic0A4KindP", "missingFunctionName"]
+- ["10Diagnostic0A4KindP", "missingGetterSetterForPropertyMember"]
+- ["10Diagnostic0A4KindP", "missingModuleNameImportDecl"]
+- ["10Diagnostic0A4KindP", "missingPrecedenceGroupRelation"]
+- ["10Diagnostic0A4KindP", "missingPrecedenceName"]
+- ["10Diagnostic0A4KindP", "missingPropertyMemberName"]
+- ["10Diagnostic0A4KindP", "missingProtocolAssociatedTypeName"]
+- ["10Diagnostic0A4KindP", "missingProtocolName"]
+- ["10Diagnostic0A4KindP", "missingProtocolSubscriptGetSetSpecifier"]
+- ["10Diagnostic0A4KindP", "missingStructName"]
+- ["10Diagnostic0A4KindP", "missingTypeForPropertyMember"]
+- ["10Diagnostic0A4KindP", "missingTypeForRawValueEnumDeclaration"]
+- ["10Diagnostic0A4KindP", "missingTypealiasName"]
+- ["10Diagnostic0A4KindP", "newLineExpectedAtTheClosingOfMultilineStringLiteral"]
+- ["10Diagnostic0A4KindP", "nonliteralEnumCaseRawValue"]
+- ["10Diagnostic0A4KindP", "operatorDeclarationHasNoFixity"]
+- ["10Diagnostic0A4KindP", "operatorHasBody"]
+- ["10Diagnostic0A4KindP", "protocolMethodMemberWithBody"]
+- ["10Diagnostic0A4KindP", "protocolPropertyMemberWithBody"]
+- ["10Diagnostic0A4KindP", "requiresDoubleEqualForSameTypeRequirement"]
+- ["10Diagnostic0A4KindP", "rightBraceExpected"]
+- ["10Diagnostic0A4KindP", "statementSameLineWithoutSemicolon"]
+- ["10Diagnostic0A4KindP", "throwsInWrongPosition"]
+- ["10Diagnostic0A4KindP", "tupleTypeMultipleLabels"]
+- ["10Diagnostic0A4KindP", "tupleTypeVariadicElement"]
+- ["10Diagnostic0A4KindP", "unionStyleMixWithRawValueStyle"]
+- ["10Diagnostic0A4KindP", "unknownPrecedenceGroupAttribute"]
+- ["10Diagnostic0A4KindP", "unnamedParameter"]
+- ["10Diagnostic0A4KindP", "varSetWithoutGet"]
+- ["10Diagnostic0A4KindP", "wrongIdentifierForMetatypeType"]
+- ["10Diagnostic0A4KindP", ""]
+- !private ["10Diagnostic0A4PoolC", "appendError"]
+- !private ["10Diagnostic0A4PoolC", "appendFatal"]
+- !private ["10Diagnostic0A4PoolC", "appendWarning"]
+- !private ["10Diagnostic0A4PoolC", "shared"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["5LexerAAC", "look"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["6ParserAAC", "DiagnosticPool"]
+- ["6ParserAAC", "Error"]
+- ["6ParserAAC", "ParserErrorKind"]
+- ["6ParserAAC", "_diagnosticPool"]
+- !private ["6ParserAAC", "_lexer"]
+- ["6ParserAAC", "_raiseError"]
+- ["6ParserAAC", "_raiseFatal"]
+- ["6ParserAAC", "_raiseWarning"]
+- ["6Parser0A9ErrorKindO", "String"]
+- ["6Parser0A9ErrorKindO", "attributeAvailabilityPlatform"]
+- ["6Parser0A9ErrorKindO", "badDeclaration"]
+- ["6Parser0A9ErrorKindO", "badProtocolMember"]
+- ["6Parser0A9ErrorKindO", "caseStmtWithoutBody"]
+- ["6Parser0A9ErrorKindO", "deinit"]
+- ["6Parser0A9ErrorKindO", "diagnosticMessage"]
+- ["6Parser0A9ErrorKindO", "dummy"]
+- ["6Parser0A9ErrorKindO", "duplicatedFunctionModifiers"]
+- ["6Parser0A9ErrorKindO", "enumExpectedAfterIndirect"]
+- ["6Parser0A9ErrorKindO", "expectedAccesorName"]
+- ["6Parser0A9ErrorKindO", "expectedAccesorNameCloseParenthesis"]
+- ["6Parser0A9ErrorKindO", "expectedArgumentLabel"]
+- ["6Parser0A9ErrorKindO", "expectedArrowSubscript"]
+- ["6Parser0A9ErrorKindO", "expectedAvailabilityVersionNumber"]
+- ["6Parser0A9ErrorKindO", "expectedAvailableKeyword"]
+- ["6Parser0A9ErrorKindO", "expectedBooleanAfterPrecedenceGroupAssignment"]
+- ["6Parser0A9ErrorKindO", "expectedCaseColon"]
+- ["6Parser0A9ErrorKindO", "expectedCaseName"]
+- ["6Parser0A9ErrorKindO", "expectedCaseNamePattern"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenAvailabilityCondition"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenFuncCall"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenKeyPathStringExpr"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenParenthesizedType"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenSelectorExpr"]
+- ["6Parser0A9ErrorKindO", "expectedCloseParenTuple"]
+- ["6Parser0A9ErrorKindO", "expectedCloseSquareArrayLiteral"]
+- ["6Parser0A9ErrorKindO", "expectedCloseSquareArrayType"]
+- ["6Parser0A9ErrorKindO", "expectedCloseSquareDictionaryLiteral"]
+- ["6Parser0A9ErrorKindO", "expectedCloseSquareDictionaryType"]
+- ["6Parser0A9ErrorKindO", "expectedCloseSquareExprList"]
+- ["6Parser0A9ErrorKindO", "expectedClosureParameterName"]
+- ["6Parser0A9ErrorKindO", "expectedColonAfterArgumentLabel"]
+- ["6Parser0A9ErrorKindO", "expectedColonAfterPropertyKeywordSelectorExpr"]
+- ["6Parser0A9ErrorKindO", "expectedColonAfterTrueExpr"]
+- ["6Parser0A9ErrorKindO", "expectedColonDictionaryLiteral"]
+- ["6Parser0A9ErrorKindO", "expectedDefaultColon"]
+- ["6Parser0A9ErrorKindO", "expectedDotOrSubscriptAfterSuper"]
+- ["6Parser0A9ErrorKindO", "expectedElseAfterGuard"]
+- ["6Parser0A9ErrorKindO", "expectedEnumDeclarationCaseMember"]
+- ["6Parser0A9ErrorKindO", "expectedEqualInConditionalBinding"]
+- ["6Parser0A9ErrorKindO", "expectedEqualInTypealias"]
+- ["6Parser0A9ErrorKindO", "expectedExpr"]
+- ["6Parser0A9ErrorKindO", "expectedForEachIn"]
+- ["6Parser0A9ErrorKindO", "expectedFunctionTypeArguments"]
+- ["6Parser0A9ErrorKindO", "expectedGenericRequirementName"]
+- ["6Parser0A9ErrorKindO", "expectedGenericTypeRestriction"]
+- ["6Parser0A9ErrorKindO", "expectedGenericsParameterName"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierAfterDot"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierAfterSelfDotExpr"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierAfterSuperDotExpr"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierForInOutExpr"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierTuplePattern"]
+- ["6Parser0A9ErrorKindO", "expectedIdentifierTypeForProtocolComposition"]
+- ["6Parser0A9ErrorKindO", "expectedKeyPathComponent"]
+- ["6Parser0A9ErrorKindO", "expectedKeyPathComponentIdentifier"]
+- ["6Parser0A9ErrorKindO", "expectedLeftChevronProtocolComposition"]
+- ["6Parser0A9ErrorKindO", "expectedMemberNameExplicitMemberExpr"]
+- ["6Parser0A9ErrorKindO", "expectedMinorVersionAvailability"]
+- ["6Parser0A9ErrorKindO", "expectedObjectLiteralIdentifier"]
+- ["6Parser0A9ErrorKindO", "expectedOpenParenAvailabilityCondition"]
+- ["6Parser0A9ErrorKindO", "expectedOpenParenKeyPathStringExpr"]
+- ["6Parser0A9ErrorKindO", "expectedOpenParenSelectorExpr"]
+- ["6Parser0A9ErrorKindO", "expectedOpenParenSourceLocation"]
+- ["6Parser0A9ErrorKindO", "expectedOperatorNameAfterInfixOperator"]
+- ["6Parser0A9ErrorKindO", "expectedParameterCloseParenthesis"]
+- ["6Parser0A9ErrorKindO", "expectedParameterNameFuncCall"]
+- ["6Parser0A9ErrorKindO", "expectedParameterOpenParenthesis"]
+- ["6Parser0A9ErrorKindO", "expectedParameterType"]
+- ["6Parser0A9ErrorKindO", "expectedPattern"]
+- ["6Parser0A9ErrorKindO", "expectedPrecedenceGroupAssociativity"]
+- ["6Parser0A9ErrorKindO", "expectedPrecedenceGroupAttribute"]
+- ["6Parser0A9ErrorKindO", "expectedRequirementDelimiter"]
+- ["6Parser0A9ErrorKindO", "expectedRightChevron"]
+- ["6Parser0A9ErrorKindO", "expectedRightChevronProtocolComposition"]
+- ["6Parser0A9ErrorKindO", "expectedStringInterpolation"]
+- ["6Parser0A9ErrorKindO", "expectedTupleArgumentLabel"]
+- ["6Parser0A9ErrorKindO", "expectedTupleIndexExplicitMemberExpr"]
+- ["6Parser0A9ErrorKindO", "expectedTuplePatternCloseParenthesis"]
+- ["6Parser0A9ErrorKindO", "expectedType"]
+- ["6Parser0A9ErrorKindO", "expectedTypeInTuple"]
+- ["6Parser0A9ErrorKindO", "expectedTypeRestriction"]
+- ["6Parser0A9ErrorKindO", "expectedUnownedSafeOrUnsafe"]
+- ["6Parser0A9ErrorKindO", "expectedValidCompilerCtrlKeyword"]
+- ["6Parser0A9ErrorKindO", "expectedValidOperator"]
+- ["6Parser0A9ErrorKindO", "expectedWhileAfterRepeatBody"]
+- ["6Parser0A9ErrorKindO", "expectedWillSetOrDidSet"]
+- ["6Parser0A9ErrorKindO", "extraTokenStringInterpolation"]
+- ["6Parser0A9ErrorKindO", "indirectWithRawValueStyle"]
+- ["6Parser0A9ErrorKindO", "insufficientIndentationOfLineInMultilineStringLiteral"]
+- ["6Parser0A9ErrorKindO", "invalidLabelOnStatement"]
+- ["6Parser0A9ErrorKindO", "lateClassRequirement"]
+- ["6Parser0A9ErrorKindO", "leftBraceExpected"]
+- ["6Parser0A9ErrorKindO", "missingAttributeName"]
+- ["6Parser0A9ErrorKindO", "missingClassName"]
+- ["6Parser0A9ErrorKindO", "missingColonAfterAttributeNameInPrecedenceGroup"]
+- ["6Parser0A9ErrorKindO", "missingEnumName"]
+- ["6Parser0A9ErrorKindO", "missingExtensionName"]
+- ["6Parser0A9ErrorKindO", "missingFunctionName"]
+- ["6Parser0A9ErrorKindO", "missingGetterSetterForPropertyMember"]
+- ["6Parser0A9ErrorKindO", "missingModuleNameImportDecl"]
+- ["6Parser0A9ErrorKindO", "missingPrecedenceGroupRelation"]
+- ["6Parser0A9ErrorKindO", "missingPrecedenceName"]
+- ["6Parser0A9ErrorKindO", "missingPropertyMemberName"]
+- ["6Parser0A9ErrorKindO", "missingProtocolAssociatedTypeName"]
+- ["6Parser0A9ErrorKindO", "missingProtocolName"]
+- ["6Parser0A9ErrorKindO", "missingProtocolSubscriptGetSetSpecifier"]
+- ["6Parser0A9ErrorKindO", "missingStructName"]
+- ["6Parser0A9ErrorKindO", "missingTypeForPropertyMember"]
+- ["6Parser0A9ErrorKindO", "missingTypeForRawValueEnumDeclaration"]
+- ["6Parser0A9ErrorKindO", "missingTypealiasName"]
+- ["6Parser0A9ErrorKindO", "newLineExpectedAtTheClosingOfMultilineStringLiteral"]
+- ["6Parser0A9ErrorKindO", "nonliteralEnumCaseRawValue"]
+- ["6Parser0A9ErrorKindO", "operatorDeclarationHasNoFixity"]
+- ["6Parser0A9ErrorKindO", "operatorHasBody"]
+- ["6Parser0A9ErrorKindO", "protocolMethodMemberWithBody"]
+- ["6Parser0A9ErrorKindO", "protocolPropertyMemberWithBody"]
+- ["6Parser0A9ErrorKindO", "requiresDoubleEqualForSameTypeRequirement"]
+- ["6Parser0A9ErrorKindO", "rightBraceExpected"]
+- ["6Parser0A9ErrorKindO", "statementSameLineWithoutSemicolon"]
+- ["6Parser0A9ErrorKindO", "throwsInWrongPosition"]
+- ["6Parser0A9ErrorKindO", "tupleTypeMultipleLabels"]
+- ["6Parser0A9ErrorKindO", "tupleTypeVariadicElement"]
+- ["6Parser0A9ErrorKindO", "unionStyleMixWithRawValueStyle"]
+- ["6Parser0A9ErrorKindO", "unknownPrecedenceGroupAttribute"]
+- ["6Parser0A9ErrorKindO", "unnamedParameter"]
+- ["6Parser0A9ErrorKindO", "varSetWithoutGet"]
+- ["6Parser0A9ErrorKindO", "wrongIdentifierForMetatypeType"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "3AST20ASTTextRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "10Diagnostic0A4KindP"
+- !private "10Diagnostic0A4PoolC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "5LexerAAC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "6ParserAAC"
+- "6Parser0A9ErrorKindO"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/AST.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Lexer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "906dada22c3be041e035e23d53c78761"

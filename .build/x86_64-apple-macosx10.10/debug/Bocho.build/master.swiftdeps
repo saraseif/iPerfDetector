@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "d95344d1f0b4d79755605c2fc15d79cf"
+build_time: [1510248995, 95228000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/CommandLine/CLIOption.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagiba+Merge.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaModels.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaParser.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/DotYanagiba/DotYanagibaReader.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+FileHandle.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+Indentation.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+Path.swift": [1510248963, 0]
+  "/Users/sara/Developer/CDSwiftAST/.build/checkouts/bocho-9204563082657130146/Sources/Bocho/SwiftExtensions/String+TTYColor.swift": [1510248963, 0]

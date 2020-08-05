@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "189ff85821eb129b54375987078701cd"
+build_time: [1510249057, 162716000]
+inputs:
+  "/Users/sara/Developer/CDSwiftAST/Sources/CDSwiftAST/main.swift": [1510248884, 0]

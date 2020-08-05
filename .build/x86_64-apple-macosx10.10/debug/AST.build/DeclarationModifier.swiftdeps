@@ -1,0 +1,232 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DeclarationModifier"
+- "=="
+provides-nominal:
+- "3AST19DeclarationModifierO"
+provides-member:
+- ["3AST19DeclarationModifierO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "ASTTextRepresentable"
+- "AccessLevelModifier"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DeclarationModifier"
+- "Equatable"
+- "MutationModifier"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["3AST20ASTTextRepresentableP", "accessLevel"]
+- ["3AST20ASTTextRepresentableP", "class"]
+- ["3AST20ASTTextRepresentableP", "convenience"]
+- ["3AST20ASTTextRepresentableP", "description"]
+- ["3AST20ASTTextRepresentableP", "dynamic"]
+- ["3AST20ASTTextRepresentableP", "final"]
+- ["3AST20ASTTextRepresentableP", "infix"]
+- !private ["3AST20ASTTextRepresentableP", "init"]
+- ["3AST20ASTTextRepresentableP", "lazy"]
+- ["3AST20ASTTextRepresentableP", "mutation"]
+- ["3AST20ASTTextRepresentableP", "optional"]
+- ["3AST20ASTTextRepresentableP", "override"]
+- ["3AST20ASTTextRepresentableP", "postfix"]
+- ["3AST20ASTTextRepresentableP", "prefix"]
+- ["3AST20ASTTextRepresentableP", "required"]
+- ["3AST20ASTTextRepresentableP", "static"]
+- ["3AST20ASTTextRepresentableP", "textDescription"]
+- ["3AST20ASTTextRepresentableP", "unowned"]
+- ["3AST20ASTTextRepresentableP", "unownedSafe"]
+- ["3AST20ASTTextRepresentableP", "unownedUnsafe"]
+- ["3AST20ASTTextRepresentableP", "weak"]
+- ["3AST20ASTTextRepresentableP", ""]
+- !private ["3AST19AccessLevelModifierO", "deinit"]
+- !private ["3AST19AccessLevelModifierO", "textDescription"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "accessLevel"]
+- ["s23CustomStringConvertibleP", "class"]
+- ["s23CustomStringConvertibleP", "convenience"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "dynamic"]
+- ["s23CustomStringConvertibleP", "final"]
+- ["s23CustomStringConvertibleP", "infix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "lazy"]
+- ["s23CustomStringConvertibleP", "mutation"]
+- ["s23CustomStringConvertibleP", "optional"]
+- ["s23CustomStringConvertibleP", "override"]
+- ["s23CustomStringConvertibleP", "postfix"]
+- ["s23CustomStringConvertibleP", "prefix"]
+- ["s23CustomStringConvertibleP", "required"]
+- ["s23CustomStringConvertibleP", "static"]
+- ["s23CustomStringConvertibleP", "textDescription"]
+- ["s23CustomStringConvertibleP", "unowned"]
+- ["s23CustomStringConvertibleP", "unownedSafe"]
+- ["s23CustomStringConvertibleP", "unownedUnsafe"]
+- ["s23CustomStringConvertibleP", "weak"]
+- ["s23CustomStringConvertibleP", ""]
+- ["3AST19DeclarationModifierO", "=="]
+- ["3AST19DeclarationModifierO", "AccessLevelModifier"]
+- ["3AST19DeclarationModifierO", "Bool"]
+- ["3AST19DeclarationModifierO", "DeclarationModifier"]
+- ["3AST19DeclarationModifierO", "MutationModifier"]
+- ["3AST19DeclarationModifierO", "String"]
+- ["3AST19DeclarationModifierO", "accessLevel"]
+- ["3AST19DeclarationModifierO", "class"]
+- ["3AST19DeclarationModifierO", "convenience"]
+- ["3AST19DeclarationModifierO", "deinit"]
+- ["3AST19DeclarationModifierO", "description"]
+- ["3AST19DeclarationModifierO", "dynamic"]
+- ["3AST19DeclarationModifierO", "final"]
+- ["3AST19DeclarationModifierO", "infix"]
+- ["3AST19DeclarationModifierO", "lazy"]
+- ["3AST19DeclarationModifierO", "mutation"]
+- ["3AST19DeclarationModifierO", "optional"]
+- ["3AST19DeclarationModifierO", "override"]
+- ["3AST19DeclarationModifierO", "postfix"]
+- ["3AST19DeclarationModifierO", "prefix"]
+- ["3AST19DeclarationModifierO", "required"]
+- ["3AST19DeclarationModifierO", "static"]
+- ["3AST19DeclarationModifierO", "textDescription"]
+- ["3AST19DeclarationModifierO", "unowned"]
+- ["3AST19DeclarationModifierO", "unownedSafe"]
+- ["3AST19DeclarationModifierO", "unownedUnsafe"]
+- ["3AST19DeclarationModifierO", "weak"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "accessLevel"]
+- ["s9EquatableP", "class"]
+- ["s9EquatableP", "convenience"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "dynamic"]
+- ["s9EquatableP", "final"]
+- ["s9EquatableP", "infix"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "lazy"]
+- ["s9EquatableP", "mutation"]
+- ["s9EquatableP", "optional"]
+- ["s9EquatableP", "override"]
+- ["s9EquatableP", "postfix"]
+- ["s9EquatableP", "prefix"]
+- ["s9EquatableP", "required"]
+- ["s9EquatableP", "static"]
+- ["s9EquatableP", "textDescription"]
+- ["s9EquatableP", "unowned"]
+- ["s9EquatableP", "unownedSafe"]
+- ["s9EquatableP", "unownedUnsafe"]
+- ["s9EquatableP", "weak"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "textDescription"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["3AST16MutationModifierO", "deinit"]
+- !private ["3AST16MutationModifierO", "textDescription"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "textDescription"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "3AST20ASTTextRepresentableP"
+- !private "3AST19AccessLevelModifierO"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "3AST19DeclarationModifierO"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "3AST16MutationModifierO"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fc7c930cb54dd1c752d6faa9bbe48086"

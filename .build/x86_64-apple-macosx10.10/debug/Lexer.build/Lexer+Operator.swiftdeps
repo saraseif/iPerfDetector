@@ -1,0 +1,350 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["5LexerAAC", ""]
+- ["5LexerAAC", "lexReservedOperator"]
+- ["5LexerAAC", "lexOperator"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- "Bool"
+- "BooleanLiteralType"
+- "Char"
+- "Lexer"
+- "Role"
+- "String"
+- !private "StringLiteralType"
+- "Token"
+- !private "UnicodeScalarType"
+- !private "||"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "toOperator"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "toOperator"]
+- !private ["5Lexer4CharV", "Bool"]
+- !private ["5Lexer4CharV", "eof"]
+- !private ["5Lexer4CharV", "role"]
+- !private ["5Lexer4CharV", "shouldContinue"]
+- !private ["5Lexer4CharV", "string"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "toOperator"]
+- !private ["s10ComparableP", "append"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "toOperator"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "eof"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "toOperator"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "append"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toOperator"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "eof"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "toOperator"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "toOperator"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "eof"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "toOperator"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "eof"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "toOperator"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "amp"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "arrow"]
+- ["s9EquatableP", "binaryOperator"]
+- !private ["s9EquatableP", "binaryQuestion"]
+- !private ["s9EquatableP", "dotOperatorHead"]
+- !private ["s9EquatableP", "eof"]
+- !private ["s9EquatableP", "equal"]
+- ["s9EquatableP", "exclaim"]
+- ["s9EquatableP", "greaterThan"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHeadSeparator"]
+- !private ["s9EquatableP", "isTailSeparator"]
+- !private ["s9EquatableP", "leftChevron"]
+- ["s9EquatableP", "lessThan"]
+- !private ["s9EquatableP", "minus"]
+- !private ["s9EquatableP", "multipleLineCommentHead"]
+- !private ["s9EquatableP", "multipleLineCommentTail"]
+- !private ["s9EquatableP", "operatorBody"]
+- !private ["s9EquatableP", "operatorHead"]
+- !private ["s9EquatableP", "period"]
+- !private ["s9EquatableP", "postfixExclaim"]
+- ["s9EquatableP", "postfixOperator"]
+- !private ["s9EquatableP", "postfixQuestion"]
+- !private ["s9EquatableP", "prefixAmp"]
+- ["s9EquatableP", "prefixOperator"]
+- !private ["s9EquatableP", "prefixQuestion"]
+- ["s9EquatableP", "question"]
+- !private ["s9EquatableP", "rightChevron"]
+- !private ["s9EquatableP", "role"]
+- !private ["s9EquatableP", "shouldContinue"]
+- !private ["s9EquatableP", "singleLineCommentHead"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "toOperator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "toOperator"]
+- !private ["s23ExpressibleByNilLiteralP", "eof"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "toOperator"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "toOperator"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "amp"]
+- !private ["s8HashableP", "append"]
+- !private ["s8HashableP", "arrow"]
+- !private ["s8HashableP", "dotOperatorHead"]
+- !private ["s8HashableP", "eof"]
+- !private ["s8HashableP", "equal"]
+- ["s8HashableP", "exclaim"]
+- ["s8HashableP", "greaterThan"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHeadSeparator"]
+- !private ["s8HashableP", "isTailSeparator"]
+- ["s8HashableP", "lessThan"]
+- !private ["s8HashableP", "minus"]
+- !private ["s8HashableP", "multipleLineCommentHead"]
+- !private ["s8HashableP", "multipleLineCommentTail"]
+- !private ["s8HashableP", "operatorBody"]
+- !private ["s8HashableP", "operatorHead"]
+- !private ["s8HashableP", "period"]
+- ["s8HashableP", "question"]
+- !private ["s8HashableP", "singleLineCommentHead"]
+- !private ["s8HashableP", "toOperator"]
+- ["5Lexer5TokenV4KindO", "binaryOperator"]
+- !private ["5Lexer5TokenV4KindO", "binaryQuestion"]
+- !private ["5Lexer5TokenV4KindO", "leftChevron"]
+- !private ["5Lexer5TokenV4KindO", "postfixExclaim"]
+- ["5Lexer5TokenV4KindO", "postfixOperator"]
+- !private ["5Lexer5TokenV4KindO", "postfixQuestion"]
+- !private ["5Lexer5TokenV4KindO", "prefixAmp"]
+- ["5Lexer5TokenV4KindO", "prefixOperator"]
+- !private ["5Lexer5TokenV4KindO", "prefixQuestion"]
+- !private ["5Lexer5TokenV4KindO", "rightChevron"]
+- ["5LexerAAC", "Bool"]
+- ["5LexerAAC", "Role"]
+- ["5LexerAAC", "Token"]
+- !private ["5LexerAAC", "_consume"]
+- !private ["5LexerAAC", "char"]
+- ["5LexerAAC", "lexOperator"]
+- ["5LexerAAC", "lexReservedOperator"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "toOperator"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "toOperator"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "toOperator"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "toOperator"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "toOperator"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "toOperator"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "toOperator"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "toOperator"]
+- !private ["So16NSObjectProtocolP", "append"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "toOperator"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "toOperator"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "toOperator"]
+- !private ["Sq", "eof"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "toOperator"]
+- ["5Lexer4RoleO", "amp"]
+- !private ["5Lexer4RoleO", "arrow"]
+- !private ["5Lexer4RoleO", "deinit"]
+- !private ["5Lexer4RoleO", "dotOperatorHead"]
+- !private ["5Lexer4RoleO", "eof"]
+- !private ["5Lexer4RoleO", "equal"]
+- ["5Lexer4RoleO", "exclaim"]
+- ["5Lexer4RoleO", "greaterThan"]
+- !private ["5Lexer4RoleO", "isHeadSeparator"]
+- !private ["5Lexer4RoleO", "isTailSeparator"]
+- ["5Lexer4RoleO", "lessThan"]
+- !private ["5Lexer4RoleO", "minus"]
+- !private ["5Lexer4RoleO", "multipleLineCommentHead"]
+- !private ["5Lexer4RoleO", "multipleLineCommentTail"]
+- !private ["5Lexer4RoleO", "operatorBody"]
+- !private ["5Lexer4RoleO", "operatorHead"]
+- !private ["5Lexer4RoleO", "period"]
+- ["5Lexer4RoleO", "question"]
+- !private ["5Lexer4RoleO", "singleLineCommentHead"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "toOperator"]
+- ["6Source0A9LocatableP", "Kind"]
+- !private ["SS", "Role"]
+- !private ["SS", "Token"]
+- !private ["SS", "append"]
+- !private ["SS", "init"]
+- !private ["SS", "toOperator"]
+- !private ["s14StringProtocolP", "append"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "toOperator"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "toOperator"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "toOperator"]
+- ["5Lexer5TokenV", "Kind"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "toOperator"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "toOperator"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "toOperator"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "append"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "toOperator"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "toOperator"]
+- !private ["s33_ExpressibleByStringInterpolationP", "append"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "toOperator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "toOperator"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "toOperator"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "toOperator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toOperator"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "eof"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "toOperator"]
+- !private ["s26_OptionalNilComparisonTypeV", "eof"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "toOperator"]
+- !private ["s16_SwiftStringViewP", "append"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "toOperator"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "5Lexer4CharV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "5Lexer5TokenV4KindO"
+- "5LexerAAC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- "5Lexer4RoleO"
+- !private "s8SequenceP"
+- "6Source0A9LocatableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "5Lexer5TokenV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Diagnostic.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Source.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sara/Developer/CDSwiftAST/.build/x86_64-apple-macosx10.10/debug/Bocho.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "646baf046a0692161b4f59856ae9b7c2"
