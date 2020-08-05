@@ -15,17 +15,12 @@ var mMTVisitor :MMTVisitor = MMTVisitor()
 var dBTVisitor :DBTVisitor = DBTVisitor()
 var transparencyVisitor :TransparencyVisitor = TransparencyVisitor()
 
-
 func analyzeSourceFileForBlurEffect(asPath path:String) {
     do {
         let sourceFile = try SourceReader.read(at: path)
         let parser = Parser(source: sourceFile)
         let topLevelDecl = try parser.parse()
         
-
-//        for stmt in topLevelDecl.statements {
-        //            // consume statement
-        //        }
         blurVisitor = BlurEffectVisitor()
         try blurVisitor.traverse(topLevelDecl)
         if(blurVisitor.isClassTypeCell)
@@ -59,7 +54,7 @@ func analyzeSourceFileForDBT(asPath path:String) {
         let sourceFile = try SourceReader.read(at: path)
         let parser = Parser(source: sourceFile)
         let topLevelDecl = try parser.parse()
-    
+        
         dBTVisitor = DBTVisitor()
         try dBTVisitor.traverse(topLevelDecl)
         
@@ -117,14 +112,5 @@ func findXMLOpacityAntiPattern (_ content:String)
                 
             }
         }
-//        if let range = line.range(of: "alpha=") {
-//            let spaceRange = line.ran
-//            let substring = line[range.upperBound...]
-//            print(substring)  // Prints ab
-//        }
     }
-}
-func findOpacityAntiPattern (content content:String)
-{
-    
 }

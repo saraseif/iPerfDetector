@@ -144,9 +144,7 @@ class BlurEffectVisitor : ASTVisitor {
                 isClassTypeCell = false
             }
         }
-        
-        //check for SQLite
-            return true
+        return true
     }
     public func checkUIBlurEffectForCellClass()
     {
@@ -165,14 +163,9 @@ class BlurEffectVisitor : ASTVisitor {
                     print(text)
                     write(text: text, to: "BlurEffectDetectionResults")
                 }
-                
             }
-            
         }
-
     }
-
-
 
     public func regexMatches(for regex: String, in text: String) -> [String] {
         
